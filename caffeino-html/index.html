@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>کافئینو | کافه و رستوران</title>
+  <meta name="description" content="کافئینو، کافه و رستورانی مدرن با قهوه تازه، غذای خوشمزه و محیطی دلنشین. رزرو میز، منوی آنلاین، ریلزها و رویدادهای ویژه.">
+  <meta name="keywords" content="کافئینو,کافه,رستوران,قهوه,رزرو میز,منو,تهران">
+  <meta property="og:title" content="کافئینو | کافه و رستوران">
+  <meta property="og:description" content="کافه و رستورانی مدرن با قهوه تازه، غذای خوشمزه و محیطی دلنشین">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fa_IR">
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"کافئینو","description":"کافه و رستوران مدرن با قهوه تازه و غذای خوشمزه","servesCuisine":["قهوه","غذای ایرانی","پاستا","دسر"],"address":{"@type":"PostalAddress","addressLocality":"تهران","addressCountry":"IR"}}</script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: { 950:'#0a1219', 900:'#031C2C', 800:'#05263A', 700:'#07354A', 600:'#0a4a68' },
+            cyan: { DEFAULT:'#63bac6', dark:'#4a9aa6', light:'#7fd0dc' }
+          },
+          fontFamily: { vazir: ['Vazirmatn','Tahoma','sans-serif'] },
+          animation: { 'fade-in':'fadeIn 0.6s ease-out', 'slide-up':'slideUp 0.5s ease-out', 'pulse-slow':'pulse 3s ease-in-out infinite' },
+          keyframes: { fadeIn: { '0%':{opacity:'0'}, '100%':{opacity:'1'} }, slideUp: { '0%':{opacity:'0',transform:'translateY(20px)'}, '100%':{opacity:'1',transform:'translateY(0)'} } }
+        }
+      }
+    }
+  </script>
+  <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet">
+</head>
+<body class="font-vazir antialiased" data-page="home">
+  <div id="header"></div>
+  <div id="app"></div>
+  <div id="footer"></div>
+  <script src="assets/js/icons.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
