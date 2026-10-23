@@ -1,0 +1,223 @@
+/* ============================================
+   CAFEINO - Elementor Custom CSS
+   به‌کارگیری: Elementor Pro → Custom CSS (تنظیمات سایت)
+   یا: Appearance → Customize → Additional CSS
+   ============================================ */
+
+/* فونت وزیرمتن */
+@import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css');
+
+/* تنظیمات کلی RTL و فونت */
+body {
+  direction: rtl;
+  font-family: 'Vazirmatn', Tahoma, sans-serif !important;
+}
+
+.elementor, .elementor *, .elementor-widget * {
+  font-family: 'Vazirmatn', Tahoma, sans-serif !important;
+}
+
+/* پس‌زمینه اصلی */
+.elementor-page, .elementor-section, .elementor-container {
+  background-color: #0a1219;
+}
+
+/* رنگ‌های برند */
+:root {
+  --cafeino-bg: #0a1219;
+  --cafeino-navy-900: #031C2C;
+  --cafeino-navy-800: #05263A;
+  --cafeino-navy-700: #07354A;
+  --cafeino-cyan: #63bac6;
+  --cafeino-cyan-light: #7fd0dc;
+  --cafeino-white: #ffffff;
+  --cafeino-gray-300: #aeb6c0;
+  --cafeino-gray-400: #8b9aa5;
+  --cafeino-gray-500: #6b7d8a;
+}
+
+/* متن گرادینت طلایی-فیروزه‌ای */
+.cafeino-gradient-text {
+  background: linear-gradient(135deg, #63bac6, #7fd0dc);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/* حاشیه بیرونی بزرگ با گوشه‌های گرد */
+.cafeino-outer-frame {
+  max-width: 1400px;
+  margin: 0 auto;
+  border: 1px solid rgba(99, 186, 198, 0.15);
+  border-radius: 24px;
+  overflow: hidden;
+  background: linear-gradient(180deg, #031C2C 0%, #05263A 50%, #031C2C 100%);
+}
+
+/* کارت تیره */
+.cafeino-dark-card {
+  background-color: #05263A;
+  border: 1px solid rgba(99, 186, 198, 0.1);
+  border-radius: 24px;
+  padding: 32px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cafeino-dark-card:hover {
+  transform: translateY(-4px);
+}
+
+/* دکمه‌های قرصی شکل */
+.elementor-widget-button .elementor-button {
+  font-family: 'Vazirmatn', Tahoma, sans-serif !important;
+  border-radius: 50px !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
+}
+
+/* دکمه فیروزه‌ای */
+.cafeino-btn-primary {
+  background-color: #63bac6 !important;
+  color: #031C2C !important;
+  box-shadow: 0 4px 20px rgba(99, 186, 198, 0.2);
+}
+
+.cafeino-btn-primary:hover {
+  background-color: #7fd0dc !important;
+}
+
+/* دکمه حاشیه‌دار */
+.cafeino-btn-outline {
+  background-color: transparent !important;
+  color: #63bac6 !important;
+  border: 2px solid rgba(99, 186, 198, 0.4) !important;
+}
+
+.cafeino-btn-outline:hover {
+  background-color: rgba(99, 186, 198, 0.1) !important;
+}
+
+/* فیلدهای فرم */
+.elementor-field, .elementor-field-group input, .elementor-field-group select, .elementor-field-group textarea {
+  background-color: rgba(7, 53, 74, 0.5) !important;
+  border: 1px solid rgba(99, 186, 198, 0.2) !important;
+  border-radius: 12px !important;
+  color: #ffffff !important;
+  font-family: 'Vazirmatn', Tahoma, sans-serif !important;
+  padding: 12px 16px !important;
+}
+
+.elementor-field:focus {
+  border-color: rgba(99, 186, 198, 0.6) !important;
+  outline: none !important;
+}
+
+.elementor-field::placeholder {
+  color: #6b7d8a !important;
+}
+
+/* برچسب‌های فرم */
+.elementor-field-label {
+  color: #8b9aa5 !important;
+  font-size: 12px !important;
+  font-family: 'Vazirmatn', Tahoma, sans-serif !important;
+}
+
+/* دکمه ارسال فرم */
+.elementor-button[type="submit"] {
+  background-color: #63bac6 !important;
+  color: #031C2C !important;
+  border-radius: 12px !important;
+  font-weight: 600 !important;
+  font-family: 'Vazirmatn', Tahoma, sans-serif !important;
+  width: 100% !important;
+  padding: 14px !important;
+}
+
+/* گالری تصاویر */
+.elementor-image-gallery figure {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.elementor-image-gallery img {
+  transition: transform 0.5s ease;
+  border: 1px solid rgba(99, 186, 198, 0.1);
+}
+
+.elementor-image-gallery figure:hover img {
+  transform: scale(1.1);
+}
+
+/* آیکن‌ها */
+.elementor-widget-icon .elementor-icon {
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.elementor-widget-icon:hover .elementor-icon {
+  transform: scale(1.1);
+}
+
+/* هدر چسبان */
+.cafeino-sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: rgba(10, 18, 25, 0.9);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(99, 186, 198, 0.1);
+}
+
+/* اسکرول‌بار */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #031C2C;
+}
+::-webkit-scrollbar-thumb {
+  background: #07354A;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0a4a68;
+}
+
+/* مخفی کردن اسکرول‌بار افقی */
+.cafeino-no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.cafeino-no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* انیمیشن ظاهر شدن */
+@keyframes cafeino-fade-in {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.cafeino-fade-in {
+  animation: cafeino-fade-in 0.6s ease-out;
+}
+
+/* ریسپانسیو */
+@media (max-width: 768px) {
+  .cafeino-outer-frame {
+    border-radius: 16px;
+  }
+  .cafeino-dark-card {
+    border-radius: 16px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .elementor-widget-heading .elementor-heading-title {
+    font-size: 28px !important;
+  }
+}

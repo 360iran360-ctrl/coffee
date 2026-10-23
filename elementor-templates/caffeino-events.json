@@ -1,0 +1,1500 @@
+{
+  "content": [
+    {
+      "id": "00000444",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_gap": {
+          "row": "0",
+          "column": "20",
+          "unit": "px"
+        },
+        "padding": {
+          "unit": "px",
+          "size": "48",
+          "isLinked": false,
+          "top": "48",
+          "right": "48",
+          "bottom": "48",
+          "left": "48"
+        },
+        "flex_align_items": "center"
+      },
+      "elements": [
+        {
+          "id": "00000441",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_gap": {
+              "row": "8",
+              "column": "0",
+              "unit": "px"
+            },
+            "flex_align_items": "center",
+            "background_background": "classic",
+            "background_color": "rgba(99,186,198,0.1)",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.2)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "50",
+              "right": "50",
+              "bottom": "50",
+              "left": "50",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "isLinked": false,
+              "top": "6",
+              "right": "16",
+              "bottom": "6",
+              "left": "16"
+            }
+          },
+          "elements": [
+            {
+              "id": "00000439",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-calendar",
+                  "library": "fa-solid"
+                },
+                "icon_color": "#63bac6",
+                "icon_size": {
+                  "unit": "px",
+                  "size": "14"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000440",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "مراسم و جشن‌ها",
+                "header_size": "div",
+                "align": "right",
+                "title_color": "#63bac6",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "12"
+                },
+                "typography_font_weight": "500"
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000442",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "مراسم و جشن‌ها",
+            "header_size": "h1",
+            "align": "right",
+            "title_color": "#ffffff",
+            "typography_typography": "custom",
+            "typography_font_family": "Vazirmatn",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "48"
+            },
+            "typography_font_weight": "700"
+          },
+          "elements": []
+        },
+        {
+          "id": "00000443",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>برای مراسم خاص خود، فضایی خصوصی و به‌یادماندنی با امکانات ویژه رزرو کنید.</p>",
+            "text_color": "#8b9aa5",
+            "align": "right",
+            "typography_typography": "custom",
+            "typography_font_family": "Vazirmatn",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "14"
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": "1.8"
+            }
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "00000445",
+      "elType": "container",
+      "settings": {
+        "flex_direction": "row",
+        "flex_gap": {
+          "row": "20",
+          "column": "20",
+          "unit": "px"
+        },
+        "flex_wrap": "wrap"
+      },
+      "elements": [
+        {
+          "id": "00000398",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "0",
+              "isLinked": false,
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "flex_direction": "column",
+            "content_width": "32%"
+          },
+          "elements": [
+            {
+              "id": "00000391",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "جشن تولد",
+                "width": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "240"
+                },
+                "object_fit": "cover",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000397",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "12",
+                  "unit": "px"
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "20",
+                  "isLinked": false,
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000392",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "جشن تولد",
+                    "header_size": "h3",
+                    "align": "right",
+                    "title_color": "#ffffff",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "18"
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000393",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>برای تولد عزیزانتان فضایی خصوصی با دکوراسیون ویژه، کیک تولد و موسیقی زنده رزرو کنید.</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000394",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p><i class=\"fas fa-users\" style=\"color:rgba(99,186,198,0.6);margin-left:6px;\"></i>تا ۳۰ نفر</p>",
+                    "text_color": "#aeb6c0",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000395",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"font-size:12px;\"><strong style=\"color:#63bac6;\">امکانات:</strong> کیک تولد مخصوص، دکوراسیون، موسیقی زنده، عکاسی حرفه‌ای</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000396",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "رزرو این مراسم",
+                    "link": {
+                      "url": "/reservation",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "button_text_color": "#63bac6",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "button_border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "button_background_color": "transparent",
+                    "button_border_border": "solid",
+                    "button_border_color": "#63bac6",
+                    "button_border_width": {
+                      "unit": "px",
+                      "size": "2",
+                      "isLinked": false,
+                      "top": "2",
+                      "right": "2",
+                      "bottom": "2",
+                      "left": "2"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000406",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "0",
+              "isLinked": false,
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "flex_direction": "column",
+            "content_width": "32%"
+          },
+          "elements": [
+            {
+              "id": "00000399",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?w=800&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "جشن خصوصی",
+                "width": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "240"
+                },
+                "object_fit": "cover",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000405",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "12",
+                  "unit": "px"
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "20",
+                  "isLinked": false,
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000400",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "جشن خصوصی",
+                    "header_size": "h3",
+                    "align": "right",
+                    "title_color": "#ffffff",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "18"
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000401",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>فضای اختصاصی کافئینو برای جشن‌های خصوصی و دورهمی‌های دوستانه.</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000402",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p><i class=\"fas fa-users\" style=\"color:rgba(99,186,198,0.6);margin-left:6px;\"></i>تا ۵۰ نفر</p>",
+                    "text_color": "#aeb6c0",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000403",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"font-size:12px;\"><strong style=\"color:#63bac6;\">امکانات:</strong> منوی اختصاصی، باریستا حرفه‌ای، فضای خصوصی، پارکینگ</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000404",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "رزرو این مراسم",
+                    "link": {
+                      "url": "/reservation",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "button_text_color": "#63bac6",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "button_border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "button_background_color": "transparent",
+                    "button_border_border": "solid",
+                    "button_border_color": "#63bac6",
+                    "button_border_width": {
+                      "unit": "px",
+                      "size": "2",
+                      "isLinked": false,
+                      "top": "2",
+                      "right": "2",
+                      "bottom": "2",
+                      "left": "2"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000414",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "0",
+              "isLinked": false,
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "flex_direction": "column",
+            "content_width": "32%"
+          },
+          "elements": [
+            {
+              "id": "00000407",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "سالگرد ازدواج",
+                "width": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "240"
+                },
+                "object_fit": "cover",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000413",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "12",
+                  "unit": "px"
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "20",
+                  "isLinked": false,
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000408",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "سالگرد ازدواج",
+                    "header_size": "h3",
+                    "align": "right",
+                    "title_color": "#ffffff",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "18"
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000409",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>شام رمانتیک برای دو نفر با فضای دنج، نورپردازی ویژه و منوی مخصوص.</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000410",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p><i class=\"fas fa-users\" style=\"color:rgba(99,186,198,0.6);margin-left:6px;\"></i>۲ نفر</p>",
+                    "text_color": "#aeb6c0",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000411",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"font-size:12px;\"><strong style=\"color:#63bac6;\">امکانات:</strong> شام رمانتیک، نورپردازی شمعی، گل و دکوراسیون، سرویس ویژه</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000412",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "رزرو این مراسم",
+                    "link": {
+                      "url": "/reservation",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "button_text_color": "#63bac6",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "button_border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "button_background_color": "transparent",
+                    "button_border_border": "solid",
+                    "button_border_color": "#63bac6",
+                    "button_border_width": {
+                      "unit": "px",
+                      "size": "2",
+                      "isLinked": false,
+                      "top": "2",
+                      "right": "2",
+                      "bottom": "2",
+                      "left": "2"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000422",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "0",
+              "isLinked": false,
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "flex_direction": "column",
+            "content_width": "32%"
+          },
+          "elements": [
+            {
+              "id": "00000415",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=800&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "جلسات کاری",
+                "width": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "240"
+                },
+                "object_fit": "cover",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000421",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "12",
+                  "unit": "px"
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "20",
+                  "isLinked": false,
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000416",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "جلسات کاری",
+                    "header_size": "h3",
+                    "align": "right",
+                    "title_color": "#ffffff",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "18"
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000417",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>فضای آرام و حرفه‌ای برای جلسات کاری و رویدادهای شرکتی کوچک.</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000418",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p><i class=\"fas fa-users\" style=\"color:rgba(99,186,198,0.6);margin-left:6px;\"></i>تا ۲۰ نفر</p>",
+                    "text_color": "#aeb6c0",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000419",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"font-size:12px;\"><strong style=\"color:#63bac6;\">امکانات:</strong> وای‌فای رایگان، پروژکتور، پذیرایی، نوشیدنی رایگان</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000420",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "رزرو این مراسم",
+                    "link": {
+                      "url": "/reservation",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "button_text_color": "#63bac6",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "button_border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "button_background_color": "transparent",
+                    "button_border_border": "solid",
+                    "button_border_color": "#63bac6",
+                    "button_border_width": {
+                      "unit": "px",
+                      "size": "2",
+                      "isLinked": false,
+                      "top": "2",
+                      "right": "2",
+                      "bottom": "2",
+                      "left": "2"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000430",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "0",
+              "isLinked": false,
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "flex_direction": "column",
+            "content_width": "32%"
+          },
+          "elements": [
+            {
+              "id": "00000423",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1592861956120-e524fc739696?w=800&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "شام رمانتیک",
+                "width": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "240"
+                },
+                "object_fit": "cover",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000429",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "12",
+                  "unit": "px"
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "20",
+                  "isLinked": false,
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000424",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "شام رمانتیک",
+                    "header_size": "h3",
+                    "align": "right",
+                    "title_color": "#ffffff",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "18"
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000425",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>یک شب فراموش‌نشدنی برای دو نفر با منوی مخصوص و فضای خصوصی.</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000426",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p><i class=\"fas fa-users\" style=\"color:rgba(99,186,198,0.6);margin-left:6px;\"></i>۲ نفر</p>",
+                    "text_color": "#aeb6c0",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000427",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"font-size:12px;\"><strong style=\"color:#63bac6;\">امکانات:</strong> منوی ویژه، گل رز، شممع، موسیقی ملایم</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000428",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "رزرو این مراسم",
+                    "link": {
+                      "url": "/reservation",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "button_text_color": "#63bac6",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "button_border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "button_background_color": "transparent",
+                    "button_border_border": "solid",
+                    "button_border_color": "#63bac6",
+                    "button_border_width": {
+                      "unit": "px",
+                      "size": "2",
+                      "isLinked": false,
+                      "top": "2",
+                      "right": "2",
+                      "bottom": "2",
+                      "left": "2"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000438",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "0",
+              "isLinked": false,
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "flex_direction": "column",
+            "content_width": "32%"
+          },
+          "elements": [
+            {
+              "id": "00000431",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1464349034109-3a50a1f7b7e8?w=800&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "مناسبتی خاص",
+                "width": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "240"
+                },
+                "object_fit": "cover",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000437",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "12",
+                  "unit": "px"
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "20",
+                  "isLinked": false,
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000432",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "مناسبتی خاص",
+                    "header_size": "h3",
+                    "align": "right",
+                    "title_color": "#ffffff",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "18"
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000433",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>روز مادر، روز عشق، یلدا و سایر مناسبت‌ها با برنامه‌های ویژه کافئینو.</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000434",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p><i class=\"fas fa-users\" style=\"color:rgba(99,186,198,0.6);margin-left:6px;\"></i>متغیر</p>",
+                    "text_color": "#aeb6c0",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000435",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"font-size:12px;\"><strong style=\"color:#63bac6;\">امکانات:</strong> برنامه ویژه، منوی فصلی، هدیه یادگاری، عکاسی</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000436",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "رزرو این مراسم",
+                    "link": {
+                      "url": "/reservation",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "button_text_color": "#63bac6",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "button_border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "button_background_color": "transparent",
+                    "button_border_border": "solid",
+                    "button_border_color": "#63bac6",
+                    "button_border_width": {
+                      "unit": "px",
+                      "size": "2",
+                      "isLinked": false,
+                      "top": "2",
+                      "right": "2",
+                      "bottom": "2",
+                      "left": "2"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "page_settings": {
+    "content_width": "full",
+    "hide_title": "yes"
+  },
+  "version": "0.4",
+  "title": "کافئینو - مراسم و جشن‌ها",
+  "type": "page"
+}

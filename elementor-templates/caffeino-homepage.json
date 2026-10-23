@@ -1,0 +1,4444 @@
+{
+  "content": [
+    {
+      "id": "00000017",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_align_items": "center",
+        "min_height": "100vh",
+        "padding": {
+          "unit": "px",
+          "isLinked": false,
+          "top": "96",
+          "right": "24",
+          "bottom": "48",
+          "left": "24"
+        },
+        "background_background": "classic",
+        "background_color": "#031C2C",
+        "background_image": {
+          "url": "https://images.unsplash.com/photo-1461026861981-344fae5e7af0?w=1600&q=80",
+          "id": ""
+        },
+        "background_position": "center center",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "rgba(10,18,25,0.8)"
+      },
+      "elements": [
+        {
+          "id": "00000013",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "flex_gap": {
+              "row": "0",
+              "column": "24",
+              "unit": "px"
+            },
+            "content_width": "58%"
+          },
+          "elements": [
+            {
+              "id": "00000003",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                  "row": "8",
+                  "column": "0",
+                  "unit": "px"
+                },
+                "flex_align_items": "center",
+                "background_background": "classic",
+                "background_color": "rgba(99,186,198,0.1)",
+                "border_border": "solid",
+                "border_color": "rgba(99,186,198,0.2)",
+                "border_width": {
+                  "unit": "px",
+                  "size": "1",
+                  "isLinked": false,
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1"
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "isLinked": false,
+                  "top": "6",
+                  "right": "16",
+                  "bottom": "6",
+                  "left": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000001",
+                  "elType": "widget",
+                  "widgetType": "icon",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-sparkles",
+                      "library": "fa-solid"
+                    },
+                    "icon_color": "#63bac6",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": "14"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000002",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "به کافئینو خوش آمدید",
+                    "header_size": "div",
+                    "align": "right",
+                    "title_color": "#63bac6",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_font_weight": "500"
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "00000004",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "لحظه‌های خاص<br><span style=\"background:linear-gradient(135deg,#63bac6,#7fd0dc);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;\">با طعم به‌یادماندنی</span>",
+                "header_size": "h1",
+                "align": "right",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "56"
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": "1.2"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000005",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>کافه کافئینو، جایی برای تجربه طعم‌های خاص، محیطی دلنشین و خاطره‌سازی با عزیزان شما.</p>",
+                "text_color": "#aeb6c0",
+                "align": "right",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "16"
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": "1.8"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000008",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                  "row": "16",
+                  "column": "0",
+                  "unit": "px"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000006",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "رزرو میز",
+                    "link": {
+                      "url": "/reservation",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "button_text_color": "#0a1219",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "button_border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "button_background_color": "#63bac6"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000007",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "مشاهده منو",
+                    "link": {
+                      "url": "/menu",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "button_text_color": "#63bac6",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "button_border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "button_background_color": "transparent",
+                    "button_border_border": "solid",
+                    "button_border_color": "#63bac6",
+                    "button_border_width": {
+                      "unit": "px",
+                      "size": "2",
+                      "isLinked": false,
+                      "top": "2",
+                      "right": "2",
+                      "bottom": "2",
+                      "left": "2"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "00000012",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                  "row": "24",
+                  "column": "0",
+                  "unit": "px"
+                },
+                "flex_wrap": "wrap"
+              },
+              "elements": [
+                {
+                  "id": "00000009",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-heart",
+                      "library": "fa-solid"
+                    },
+                    "title_text": "محیطی دلنشین",
+                    "description_text": "فضایی گرم و صمیمی",
+                    "icon_color": "#63bac6",
+                    "icon_background_background": "classic",
+                    "icon_background_color": "rgba(99,186,198,0.1)",
+                    "icon_border_border": "solid",
+                    "icon_border_color": "rgba(99,186,198,0.2)",
+                    "icon_border_width": {
+                      "unit": "px",
+                      "size": "1",
+                      "isLinked": false,
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1"
+                    },
+                    "icon_border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "icon_size": {
+                      "unit": "px",
+                      "size": "20"
+                    },
+                    "icon_padding": {
+                      "unit": "px",
+                      "size": "10",
+                      "isLinked": true
+                    },
+                    "title_color": "#ffffff",
+                    "description_color": "#8b9aa5",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "title_typography_font_weight": "600",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "position": "left"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000010",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-leaf",
+                      "library": "fa-solid"
+                    },
+                    "title_text": "مواد اولیه تازه",
+                    "description_text": "تازه و باکیفیت",
+                    "icon_color": "#63bac6",
+                    "icon_background_background": "classic",
+                    "icon_background_color": "rgba(99,186,198,0.1)",
+                    "icon_border_border": "solid",
+                    "icon_border_color": "rgba(99,186,198,0.2)",
+                    "icon_border_width": {
+                      "unit": "px",
+                      "size": "1",
+                      "isLinked": false,
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1"
+                    },
+                    "icon_border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "icon_size": {
+                      "unit": "px",
+                      "size": "20"
+                    },
+                    "icon_padding": {
+                      "unit": "px",
+                      "size": "10",
+                      "isLinked": true
+                    },
+                    "title_color": "#ffffff",
+                    "description_color": "#8b9aa5",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "title_typography_font_weight": "600",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "position": "left"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000011",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-star",
+                      "library": "fa-solid"
+                    },
+                    "title_text": "کیفیت بی‌نظیر",
+                    "description_text": "هنر و سلیقه",
+                    "icon_color": "#63bac6",
+                    "icon_background_background": "classic",
+                    "icon_background_color": "rgba(99,186,198,0.1)",
+                    "icon_border_border": "solid",
+                    "icon_border_color": "rgba(99,186,198,0.2)",
+                    "icon_border_width": {
+                      "unit": "px",
+                      "size": "1",
+                      "isLinked": false,
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1"
+                    },
+                    "icon_border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "icon_size": {
+                      "unit": "px",
+                      "size": "20"
+                    },
+                    "icon_padding": {
+                      "unit": "px",
+                      "size": "10",
+                      "isLinked": true
+                    },
+                    "title_color": "#ffffff",
+                    "description_color": "#8b9aa5",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "title_typography_font_weight": "600",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "position": "left"
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000016",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "flex_gap": {
+              "row": "0",
+              "column": "12",
+              "unit": "px"
+            },
+            "content_width": "38%"
+          },
+          "elements": [
+            {
+              "id": "00000014",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "جدیدترین ریلز",
+                "header_size": "h3",
+                "align": "right",
+                "title_color": "#63bac6",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "14"
+                },
+                "typography_font_weight": "600"
+              },
+              "elements": []
+            },
+            {
+              "id": "00000015",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1461026861981-344fae5e7af0?w=600&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "آیس لاته کافئینو",
+                "image_border_border": "solid",
+                "image_border_color": "rgba(99,186,198,0.15)",
+                "image_border_width": {
+                  "unit": "px",
+                  "size": "1",
+                  "isLinked": false,
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1"
+                },
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "24",
+                  "bottom": "24",
+                  "left": "24",
+                  "isLinked": true
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "420"
+                },
+                "object_fit": "cover"
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "00000043",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_gap": {
+          "row": "0",
+          "column": "20",
+          "unit": "px"
+        },
+        "padding": {
+          "unit": "px",
+          "size": "48",
+          "isLinked": false,
+          "top": "48",
+          "right": "48",
+          "bottom": "48",
+          "left": "48"
+        }
+      },
+      "elements": [
+        {
+          "id": "00000020",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_gap": {
+              "row": "12",
+              "column": "0",
+              "unit": "px"
+            },
+            "flex_align_items": "center",
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "32",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "00000018",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-sparkles",
+                  "library": "fa-solid"
+                },
+                "icon_color": "#63bac6",
+                "icon_background_background": "classic",
+                "icon_background_color": "rgba(99,186,198,0.1)",
+                "icon_border_border": "solid",
+                "icon_border_color": "rgba(99,186,198,0.2)",
+                "icon_border_width": {
+                  "unit": "px",
+                  "size": "1",
+                  "isLinked": false,
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1"
+                },
+                "icon_border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50",
+                  "isLinked": true
+                },
+                "icon_padding": {
+                  "unit": "px",
+                  "size": "8",
+                  "isLinked": true
+                },
+                "icon_size": {
+                  "unit": "px",
+                  "size": "18"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000019",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "لحظه‌های کافئینو",
+                "header_size": "h2",
+                "align": "right",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "28"
+                },
+                "typography_font_weight": "700"
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000042",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_gap": {
+              "row": "20",
+              "column": "0",
+              "unit": "px"
+            },
+            "flex_wrap": "wrap"
+          },
+          "elements": [
+            {
+              "id": "00000023",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "flex_align_items": "center"
+              },
+              "elements": [
+                {
+                  "id": "00000021",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.unsplash.com/photo-1461026861981-344fae5e7af0?w=400&q=80",
+                      "id": ""
+                    },
+                    "image_size": "thumbnail",
+                    "title_text": "قهوه و نوشیدنی",
+                    "width": {
+                      "unit": "px",
+                      "size": "96"
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": "96"
+                    },
+                    "object_fit": "cover",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "link": {
+                      "url": "/reels",
+                      "is_external": ""
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000022",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "قهوه و نوشیدنی",
+                    "header_size": "div",
+                    "align": "center",
+                    "title_color": "#aeb6c0",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_font_weight": "400"
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "00000026",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "flex_align_items": "center"
+              },
+              "elements": [
+                {
+                  "id": "00000024",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.unsplash.com/photo-1546069901-ba9599a7eaa5?w=400&q=80",
+                      "id": ""
+                    },
+                    "image_size": "thumbnail",
+                    "title_text": "غذاهای ویژه",
+                    "width": {
+                      "unit": "px",
+                      "size": "96"
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": "96"
+                    },
+                    "object_fit": "cover",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "link": {
+                      "url": "/reels",
+                      "is_external": ""
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000025",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "غذاهای ویژه",
+                    "header_size": "div",
+                    "align": "center",
+                    "title_color": "#aeb6c0",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_font_weight": "400"
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "00000029",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "flex_align_items": "center"
+              },
+              "elements": [
+                {
+                  "id": "00000027",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.unsplash.com/photo-1551024601-b5117d5f5d8f?w=400&q=80",
+                      "id": ""
+                    },
+                    "image_size": "thumbnail",
+                    "title_text": "دسرهای خوشمزه",
+                    "width": {
+                      "unit": "px",
+                      "size": "96"
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": "96"
+                    },
+                    "object_fit": "cover",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "link": {
+                      "url": "/reels",
+                      "is_external": ""
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000028",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "دسرهای خوشمزه",
+                    "header_size": "div",
+                    "align": "center",
+                    "title_color": "#aeb6c0",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_font_weight": "400"
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "00000032",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "flex_align_items": "center"
+              },
+              "elements": [
+                {
+                  "id": "00000030",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=400&q=80",
+                      "id": ""
+                    },
+                    "image_size": "thumbnail",
+                    "title_text": "فضای رستوران",
+                    "width": {
+                      "unit": "px",
+                      "size": "96"
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": "96"
+                    },
+                    "object_fit": "cover",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "link": {
+                      "url": "/reels",
+                      "is_external": ""
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000031",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "فضای رستوران",
+                    "header_size": "div",
+                    "align": "center",
+                    "title_color": "#aeb6c0",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_font_weight": "400"
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "00000035",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "flex_align_items": "center"
+              },
+              "elements": [
+                {
+                  "id": "00000033",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34cf?w=400&q=80",
+                      "id": ""
+                    },
+                    "image_size": "thumbnail",
+                    "title_text": "مشتریان ما",
+                    "width": {
+                      "unit": "px",
+                      "size": "96"
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": "96"
+                    },
+                    "object_fit": "cover",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "link": {
+                      "url": "/reels",
+                      "is_external": ""
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000034",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "مشتریان ما",
+                    "header_size": "div",
+                    "align": "center",
+                    "title_color": "#aeb6c0",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_font_weight": "400"
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "00000038",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "flex_align_items": "center"
+              },
+              "elements": [
+                {
+                  "id": "00000036",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.unsplash.com/photo-1453614512568-c4021d66884c?w=400&q=80",
+                      "id": ""
+                    },
+                    "image_size": "thumbnail",
+                    "title_text": "پشت صحنه",
+                    "width": {
+                      "unit": "px",
+                      "size": "96"
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": "96"
+                    },
+                    "object_fit": "cover",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "link": {
+                      "url": "/reels",
+                      "is_external": ""
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000037",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "پشت صحنه",
+                    "header_size": "div",
+                    "align": "center",
+                    "title_color": "#aeb6c0",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_font_weight": "400"
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "00000041",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "flex_align_items": "center"
+              },
+              "elements": [
+                {
+                  "id": "00000039",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=400&q=80",
+                      "id": ""
+                    },
+                    "image_size": "thumbnail",
+                    "title_text": "رویدادها",
+                    "width": {
+                      "unit": "px",
+                      "size": "96"
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": "96"
+                    },
+                    "object_fit": "cover",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "link": {
+                      "url": "/reels",
+                      "is_external": ""
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000040",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "رویدادها",
+                    "header_size": "div",
+                    "align": "center",
+                    "title_color": "#aeb6c0",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_font_weight": "400"
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "00000082",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_gap": {
+          "row": "0",
+          "column": "20",
+          "unit": "px"
+        },
+        "padding": {
+          "unit": "px",
+          "size": "48",
+          "isLinked": false,
+          "top": "48",
+          "right": "48",
+          "bottom": "48",
+          "left": "48"
+        }
+      },
+      "elements": [
+        {
+          "id": "00000050",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center",
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "32",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "00000046",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                  "row": "12",
+                  "column": "0",
+                  "unit": "px"
+                },
+                "flex_align_items": "center"
+              },
+              "elements": [
+                {
+                  "id": "00000044",
+                  "elType": "widget",
+                  "widgetType": "icon",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-film",
+                      "library": "fa-solid"
+                    },
+                    "icon_color": "#63bac6",
+                    "icon_background_background": "classic",
+                    "icon_background_color": "rgba(99,186,198,0.1)",
+                    "icon_border_border": "solid",
+                    "icon_border_color": "rgba(99,186,198,0.2)",
+                    "icon_border_width": {
+                      "unit": "px",
+                      "size": "1",
+                      "isLinked": false,
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1"
+                    },
+                    "icon_border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "icon_padding": {
+                      "unit": "px",
+                      "size": "8",
+                      "isLinked": true
+                    },
+                    "icon_size": {
+                      "unit": "px",
+                      "size": "18"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000045",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "کلیپ‌ها و ریلزها",
+                    "header_size": "h2",
+                    "align": "right",
+                    "title_color": "#ffffff",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "28"
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "00000049",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                  "row": "6",
+                  "column": "0",
+                  "unit": "px"
+                },
+                "flex_align_items": "center"
+              },
+              "elements": [
+                {
+                  "id": "00000047",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "مشاهده همه",
+                    "link": {
+                      "url": "/reels",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "button_text_color": "rgba(99,186,198,0.7)",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "button_border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "button_background_color": "transparent"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000048",
+                  "elType": "widget",
+                  "widgetType": "icon",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-arrow-left",
+                      "library": "fa-solid"
+                    },
+                    "icon_color": "rgba(99,186,198,0.7)",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": "16"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000081",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_gap": {
+              "row": "16",
+              "column": "16",
+              "unit": "px"
+            },
+            "flex_wrap": "wrap"
+          },
+          "elements": [
+            {
+              "id": "00000055",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "background_background": "classic",
+                "background_color": "#05263A",
+                "border_border": "solid",
+                "border_color": "rgba(99,186,198,0.1)",
+                "border_width": {
+                  "unit": "px",
+                  "size": "1",
+                  "isLinked": false,
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1"
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "24",
+                  "bottom": "24",
+                  "left": "24",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "0",
+                  "isLinked": false,
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000051",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.unsplash.com/photo-1461026861981-344fae5e7af0?w=600&q=80",
+                      "id": ""
+                    },
+                    "image_size": "full",
+                    "title_text": "آیس لاته کافئینو",
+                    "width": {
+                      "unit": "px",
+                      "size": "180"
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": "320"
+                    },
+                    "object_fit": "cover",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "link": {
+                      "url": "/reels",
+                      "is_external": ""
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000054",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000052",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "آیس لاته کافئینو",
+                        "header_size": "div",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "12"
+                        },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000053",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:10px;color:#aeb6c0;\"><i class=\"fas fa-play\" style=\"font-size:10px;margin-left:4px;\"></i>۲٫۱K بازدید</p>",
+                        "text_color": "#aeb6c0",
+                        "align": "right",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "10"
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": "1.8"
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "00000060",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "background_background": "classic",
+                "background_color": "#05263A",
+                "border_border": "solid",
+                "border_color": "rgba(99,186,198,0.1)",
+                "border_width": {
+                  "unit": "px",
+                  "size": "1",
+                  "isLinked": false,
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1"
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "24",
+                  "bottom": "24",
+                  "left": "24",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "0",
+                  "isLinked": false,
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000056",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600&q=80",
+                      "id": ""
+                    },
+                    "image_size": "full",
+                    "title_text": "فضای کافه در شب",
+                    "width": {
+                      "unit": "px",
+                      "size": "180"
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": "320"
+                    },
+                    "object_fit": "cover",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "link": {
+                      "url": "/reels",
+                      "is_external": ""
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000059",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000057",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "فضای کافه در شب",
+                        "header_size": "div",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "12"
+                        },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000058",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:10px;color:#aeb6c0;\"><i class=\"fas fa-play\" style=\"font-size:10px;margin-left:4px;\"></i>۳٫۴K بازدید</p>",
+                        "text_color": "#aeb6c0",
+                        "align": "right",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "10"
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": "1.8"
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "00000065",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "background_background": "classic",
+                "background_color": "#05263A",
+                "border_border": "solid",
+                "border_color": "rgba(99,186,198,0.1)",
+                "border_width": {
+                  "unit": "px",
+                  "size": "1",
+                  "isLinked": false,
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1"
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "24",
+                  "bottom": "24",
+                  "left": "24",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "0",
+                  "isLinked": false,
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000061",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=600&q=80",
+                      "id": ""
+                    },
+                    "image_size": "full",
+                    "title_text": "پاستای مخصوص کافئینو",
+                    "width": {
+                      "unit": "px",
+                      "size": "180"
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": "320"
+                    },
+                    "object_fit": "cover",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "link": {
+                      "url": "/reels",
+                      "is_external": ""
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000064",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000062",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "پاستای مخصوص کافئینو",
+                        "header_size": "div",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "12"
+                        },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000063",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:10px;color:#aeb6c0;\"><i class=\"fas fa-play\" style=\"font-size:10px;margin-left:4px;\"></i>۱٫۸K بازدید</p>",
+                        "text_color": "#aeb6c0",
+                        "align": "right",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "10"
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": "1.8"
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "00000070",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "background_background": "classic",
+                "background_color": "#05263A",
+                "border_border": "solid",
+                "border_color": "rgba(99,186,198,0.1)",
+                "border_width": {
+                  "unit": "px",
+                  "size": "1",
+                  "isLinked": false,
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1"
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "24",
+                  "bottom": "24",
+                  "left": "24",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "0",
+                  "isLinked": false,
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000066",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600&q=80",
+                      "id": ""
+                    },
+                    "image_size": "full",
+                    "title_text": "تیرامیسوی تازه",
+                    "width": {
+                      "unit": "px",
+                      "size": "180"
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": "320"
+                    },
+                    "object_fit": "cover",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "link": {
+                      "url": "/reels",
+                      "is_external": ""
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000069",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000067",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "تیرامیسوی تازه",
+                        "header_size": "div",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "12"
+                        },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000068",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:10px;color:#aeb6c0;\"><i class=\"fas fa-play\" style=\"font-size:10px;margin-left:4px;\"></i>۴٫۲K بازدید</p>",
+                        "text_color": "#aeb6c0",
+                        "align": "right",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "10"
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": "1.8"
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "00000075",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "background_background": "classic",
+                "background_color": "#05263A",
+                "border_border": "solid",
+                "border_color": "rgba(99,186,198,0.1)",
+                "border_width": {
+                  "unit": "px",
+                  "size": "1",
+                  "isLinked": false,
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1"
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "24",
+                  "bottom": "24",
+                  "left": "24",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "0",
+                  "isLinked": false,
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000071",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.unsplash.com/photo-1453614512568-c4021d66884c?w=600&q=80",
+                      "id": ""
+                    },
+                    "image_size": "full",
+                    "title_text": "شب‌های کافئینو",
+                    "width": {
+                      "unit": "px",
+                      "size": "180"
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": "320"
+                    },
+                    "object_fit": "cover",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "link": {
+                      "url": "/reels",
+                      "is_external": ""
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000074",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000072",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "شب‌های کافئینو",
+                        "header_size": "div",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "12"
+                        },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000073",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:10px;color:#aeb6c0;\"><i class=\"fas fa-play\" style=\"font-size:10px;margin-left:4px;\"></i>۲٫۷K بازدید</p>",
+                        "text_color": "#aeb6c0",
+                        "align": "right",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "10"
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": "1.8"
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "00000080",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "background_background": "classic",
+                "background_color": "#05263A",
+                "border_border": "solid",
+                "border_color": "rgba(99,186,198,0.1)",
+                "border_width": {
+                  "unit": "px",
+                  "size": "1",
+                  "isLinked": false,
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1"
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "24",
+                  "bottom": "24",
+                  "left": "24",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "0",
+                  "isLinked": false,
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000076",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.unsplash.com/photo-1442975631115-c4f7b05b8a2c?w=600&q=80",
+                      "id": ""
+                    },
+                    "image_size": "full",
+                    "title_text": "قهوه و هنر",
+                    "width": {
+                      "unit": "px",
+                      "size": "180"
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": "320"
+                    },
+                    "object_fit": "cover",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "link": {
+                      "url": "/reels",
+                      "is_external": ""
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000079",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "isLinked": false,
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000077",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "قهوه و هنر",
+                        "header_size": "div",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "12"
+                        },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000078",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:10px;color:#aeb6c0;\"><i class=\"fas fa-play\" style=\"font-size:10px;margin-left:4px;\"></i>۵٫۱K بازدید</p>",
+                        "text_color": "#aeb6c0",
+                        "align": "right",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "10"
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": "1.8"
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "00000096",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_gap": {
+          "row": "0",
+          "column": "20",
+          "unit": "px"
+        },
+        "padding": {
+          "unit": "px",
+          "size": "48",
+          "isLinked": false,
+          "top": "48",
+          "right": "48",
+          "bottom": "48",
+          "left": "48"
+        }
+      },
+      "elements": [
+        {
+          "id": "00000095",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_gap": {
+              "row": "24",
+              "column": "0",
+              "unit": "px"
+            },
+            "flex_wrap": "wrap"
+          },
+          "elements": [
+            {
+              "id": "00000088",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#05263A",
+                "border_border": "solid",
+                "border_color": "rgba(99,186,198,0.1)",
+                "border_width": {
+                  "unit": "px",
+                  "size": "1",
+                  "isLinked": false,
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1"
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "24",
+                  "bottom": "24",
+                  "left": "24",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "32",
+                  "isLinked": false,
+                  "top": "32",
+                  "right": "32",
+                  "bottom": "32",
+                  "left": "32"
+                },
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "16",
+                  "unit": "px"
+                },
+                "content_width": "48%"
+              },
+              "elements": [
+                {
+                  "id": "00000085",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_gap": {
+                      "row": "12",
+                      "column": "0",
+                      "unit": "px"
+                    },
+                    "flex_align_items": "center"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000083",
+                      "elType": "widget",
+                      "widgetType": "icon",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-table",
+                          "library": "fa-solid"
+                        },
+                        "icon_color": "#63bac6",
+                        "icon_background_background": "classic",
+                        "icon_background_color": "rgba(99,186,198,0.1)",
+                        "icon_border_border": "solid",
+                        "icon_border_color": "rgba(99,186,198,0.2)",
+                        "icon_border_width": {
+                          "unit": "px",
+                          "size": "1",
+                          "isLinked": false,
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1"
+                        },
+                        "icon_border_radius": {
+                          "unit": "px",
+                          "top": "50",
+                          "right": "50",
+                          "bottom": "50",
+                          "left": "50",
+                          "isLinked": true
+                        },
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": "8",
+                          "isLinked": true
+                        },
+                        "icon_size": {
+                          "unit": "px",
+                          "size": "20"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000084",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "رزرو میز",
+                        "header_size": "h3",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "24"
+                        },
+                        "typography_font_weight": "700"
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "00000086",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>میز دلخواه خود را برای یک تجربه خاص رزرو کنید.</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000087",
+                  "elType": "widget",
+                  "widgetType": "form",
+                  "settings": {
+                    "form_name": "homepage_reservation",
+                    "form_fields": [
+                      {
+                        "key": "guests",
+                        "type": "select",
+                        "label": "تعداد نفرات",
+                        "options": "1 نفر|2 نفر|3 نفر|4 نفر|5 نفر|6 نفر|7 نفر|8 نفر|بیشتر از ۸ نفر",
+                        "required": true,
+                        "width": "33"
+                      },
+                      {
+                        "key": "time",
+                        "type": "select",
+                        "label": "ساعت",
+                        "options": "12:00|13:00|14:00|16:00|18:00|19:00|20:00|21:00|22:00",
+                        "required": true,
+                        "width": "33"
+                      },
+                      {
+                        "key": "date",
+                        "type": "date",
+                        "label": "تاریخ",
+                        "required": true,
+                        "width": "34"
+                      }
+                    ],
+                    "submit_button_text": "جستجو و رزرو",
+                    "button_background_color": "#63bac6",
+                    "button_text_color": "#0a1219",
+                    "button_border_radius": {
+                      "unit": "px",
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
+                      "isLinked": true
+                    },
+                    "button_width": "100",
+                    "field_background_color": "rgba(7,53,74,0.5)",
+                    "field_border_color": "rgba(99,186,198,0.2)",
+                    "field_border_radius": {
+                      "unit": "px",
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
+                      "isLinked": true
+                    },
+                    "field_text_color": "#ffffff",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "field_typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "00000094",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#031C2C",
+                "border_border": "solid",
+                "border_color": "rgba(99,186,198,0.1)",
+                "border_width": {
+                  "unit": "px",
+                  "size": "1",
+                  "isLinked": false,
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1"
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "24",
+                  "bottom": "24",
+                  "left": "24",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "32",
+                  "isLinked": false,
+                  "top": "32",
+                  "right": "32",
+                  "bottom": "32",
+                  "left": "32"
+                },
+                "background_image": {
+                  "url": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800&q=80",
+                  "id": ""
+                },
+                "background_size": "cover",
+                "background_position": "center center",
+                "background_overlay_background": "gradient",
+                "background_overlay_color": "#0a1219",
+                "background_overlay_color_b": "transparent",
+                "background_overlay_gradient_angle": 90,
+                "content_width": "48%",
+                "flex_direction": "column",
+                "flex_justify_content": "flex-end",
+                "min_height": "300px"
+              },
+              "elements": [
+                {
+                  "id": "00000091",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_gap": {
+                      "row": "12",
+                      "column": "0",
+                      "unit": "px"
+                    },
+                    "flex_align_items": "center"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000089",
+                      "elType": "widget",
+                      "widgetType": "icon",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-calendar",
+                          "library": "fa-solid"
+                        },
+                        "icon_color": "#63bac6",
+                        "icon_background_background": "classic",
+                        "icon_background_color": "rgba(99,186,198,0.1)",
+                        "icon_border_border": "solid",
+                        "icon_border_color": "rgba(99,186,198,0.2)",
+                        "icon_border_width": {
+                          "unit": "px",
+                          "size": "1",
+                          "isLinked": false,
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1"
+                        },
+                        "icon_border_radius": {
+                          "unit": "px",
+                          "top": "50",
+                          "right": "50",
+                          "bottom": "50",
+                          "left": "50",
+                          "isLinked": true
+                        },
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": "8",
+                          "isLinked": true
+                        },
+                        "icon_size": {
+                          "unit": "px",
+                          "size": "20"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000090",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "مراسم و جشن‌ها",
+                        "header_size": "h3",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "24"
+                        },
+                        "typography_font_weight": "700"
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "00000092",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>برای مراسم خاص خود، فضایی خصوصی و به‌یادماندنی با امکانات ویژه رزرو کنید.</p>",
+                    "text_color": "#aeb6c0",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000093",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "اطلاعات بیشتر",
+                    "link": {
+                      "url": "/events",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "button_text_color": "#63bac6",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "button_border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "button_background_color": "transparent",
+                    "button_border_border": "solid",
+                    "button_border_color": "#63bac6",
+                    "button_border_width": {
+                      "unit": "px",
+                      "size": "2",
+                      "isLinked": false,
+                      "top": "2",
+                      "right": "2",
+                      "bottom": "2",
+                      "left": "2"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "00000117",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_gap": {
+          "row": "0",
+          "column": "20",
+          "unit": "px"
+        },
+        "padding": {
+          "unit": "px",
+          "size": "48",
+          "isLinked": false,
+          "top": "48",
+          "right": "48",
+          "bottom": "48",
+          "left": "48"
+        }
+      },
+      "elements": [
+        {
+          "id": "00000116",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_gap": {
+              "row": "32",
+              "column": "0",
+              "unit": "px"
+            },
+            "flex_align_items": "center",
+            "flex_wrap": "wrap"
+          },
+          "elements": [
+            {
+              "id": "00000104",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                  "row": "12",
+                  "column": "12",
+                  "unit": "px"
+                },
+                "content_width": "48%"
+              },
+              "elements": [
+                {
+                  "id": "00000098",
+                  "elType": "container",
+                  "settings": {
+                    "background_background": "classic",
+                    "background_color": "#05263A",
+                    "border_border": "solid",
+                    "border_color": "rgba(99,186,198,0.1)",
+                    "border_width": {
+                      "unit": "px",
+                      "size": "1",
+                      "isLinked": false,
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1"
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "24",
+                      "right": "24",
+                      "bottom": "24",
+                      "left": "24",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "size": "0",
+                      "isLinked": false,
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0"
+                    },
+                    "content_width": "66%"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000097",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=400&q=80",
+                          "id": ""
+                        },
+                        "image_size": "full",
+                        "title_text": "فضای کافئینو",
+                        "image_border_border": "solid",
+                        "image_border_color": "rgba(99,186,198,0.15)",
+                        "image_border_width": {
+                          "unit": "px",
+                          "size": "1",
+                          "isLinked": false,
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1"
+                        },
+                        "image_border_radius": {
+                          "unit": "",
+                          "top": "16",
+                          "right": "16",
+                          "bottom": "16",
+                          "left": "16",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "00000103",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "row": "0",
+                      "column": "12",
+                      "unit": "px"
+                    },
+                    "content_width": "33%"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000100",
+                      "elType": "container",
+                      "settings": {
+                        "background_background": "classic",
+                        "background_color": "#05263A",
+                        "border_border": "solid",
+                        "border_color": "rgba(99,186,198,0.1)",
+                        "border_width": {
+                          "unit": "px",
+                          "size": "1",
+                          "isLinked": false,
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1"
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "24",
+                          "right": "24",
+                          "bottom": "24",
+                          "left": "24",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "size": "0",
+                          "isLinked": false,
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0"
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "00000099",
+                          "elType": "widget",
+                          "widgetType": "image",
+                          "settings": {
+                            "image": {
+                              "url": "https://images.unsplash.com/photo-1461026861981-344fae5e7af0?w=400&q=80",
+                              "id": ""
+                            },
+                            "image_size": "full",
+                            "title_text": "قهوه کافئینو",
+                            "image_border_border": "solid",
+                            "image_border_color": "rgba(99,186,198,0.15)",
+                            "image_border_width": {
+                              "unit": "px",
+                              "size": "1",
+                              "isLinked": false,
+                              "top": "1",
+                              "right": "1",
+                              "bottom": "1",
+                              "left": "1"
+                            },
+                            "image_border_radius": {
+                              "unit": "",
+                              "top": "16",
+                              "right": "16",
+                              "bottom": "16",
+                              "left": "16",
+                              "isLinked": true
+                            }
+                          },
+                          "elements": []
+                        }
+                      ],
+                      "isInner": false
+                    },
+                    {
+                      "id": "00000102",
+                      "elType": "container",
+                      "settings": {
+                        "background_background": "classic",
+                        "background_color": "#05263A",
+                        "border_border": "solid",
+                        "border_color": "rgba(99,186,198,0.1)",
+                        "border_width": {
+                          "unit": "px",
+                          "size": "1",
+                          "isLinked": false,
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1"
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "24",
+                          "right": "24",
+                          "bottom": "24",
+                          "left": "24",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "size": "0",
+                          "isLinked": false,
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0"
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "00000101",
+                          "elType": "widget",
+                          "widgetType": "image",
+                          "settings": {
+                            "image": {
+                              "url": "https://images.unsplash.com/photo-1551024601-b5117d5f5d8f?w=400&q=80",
+                              "id": ""
+                            },
+                            "image_size": "full",
+                            "title_text": "دسر کافئینو",
+                            "image_border_border": "solid",
+                            "image_border_color": "rgba(99,186,198,0.15)",
+                            "image_border_width": {
+                              "unit": "px",
+                              "size": "1",
+                              "isLinked": false,
+                              "top": "1",
+                              "right": "1",
+                              "bottom": "1",
+                              "left": "1"
+                            },
+                            "image_border_radius": {
+                              "unit": "",
+                              "top": "16",
+                              "right": "16",
+                              "bottom": "16",
+                              "left": "16",
+                              "isLinked": true
+                            }
+                          },
+                          "elements": []
+                        }
+                      ],
+                      "isInner": false
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "00000115",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "24",
+                  "unit": "px"
+                },
+                "content_width": "48%"
+              },
+              "elements": [
+                {
+                  "id": "00000107",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_gap": {
+                      "row": "12",
+                      "column": "0",
+                      "unit": "px"
+                    },
+                    "flex_align_items": "center"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000105",
+                      "elType": "widget",
+                      "widgetType": "icon",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-home",
+                          "library": "fa-solid"
+                        },
+                        "icon_color": "#63bac6",
+                        "icon_background_background": "classic",
+                        "icon_background_color": "rgba(99,186,198,0.1)",
+                        "icon_border_border": "solid",
+                        "icon_border_color": "rgba(99,186,198,0.2)",
+                        "icon_border_width": {
+                          "unit": "px",
+                          "size": "1",
+                          "isLinked": false,
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1"
+                        },
+                        "icon_border_radius": {
+                          "unit": "px",
+                          "top": "50",
+                          "right": "50",
+                          "bottom": "50",
+                          "left": "50",
+                          "isLinked": true
+                        },
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": "8",
+                          "isLinked": true
+                        },
+                        "icon_size": {
+                          "unit": "px",
+                          "size": "18"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000106",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "درباره کافئینو",
+                        "header_size": "h2",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "28"
+                        },
+                        "typography_font_weight": "700"
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "00000108",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>کافئینو جایی است برای آرامش، لذت و تجربه طعم‌های به‌یادماندنی. ما تلاش می‌کنیم با ترکیب قهوه باکیفیت، غذای تازه، فضای دلنشین و میزبانی حرفه‌ای، لحظه‌هایی متفاوت برای شما خلق کنیم.</p>",
+                    "text_color": "#aeb6c0",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "15"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000113",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_gap": {
+                      "row": "16",
+                      "column": "16",
+                      "unit": "px"
+                    },
+                    "flex_wrap": "wrap"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000109",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-home",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "محیطی گرم و صمیمی",
+                        "description_text": "فضایی دنج برای آرامش و گفتگو",
+                        "icon_color": "#63bac6",
+                        "icon_background_background": "classic",
+                        "icon_background_color": "rgba(99,186,198,0.1)",
+                        "icon_border_border": "solid",
+                        "icon_border_color": "rgba(99,186,198,0.2)",
+                        "icon_border_width": {
+                          "unit": "px",
+                          "size": "1",
+                          "isLinked": false,
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1"
+                        },
+                        "icon_border_radius": {
+                          "unit": "px",
+                          "top": "50",
+                          "right": "50",
+                          "bottom": "50",
+                          "left": "50",
+                          "isLinked": true
+                        },
+                        "icon_size": {
+                          "unit": "px",
+                          "size": "20"
+                        },
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": "10",
+                          "isLinked": true
+                        },
+                        "title_color": "#ffffff",
+                        "description_color": "#8b9aa5",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "title_typography_font_weight": "600",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": "12"
+                        },
+                        "position": "left"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000110",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-list",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "منوی متنوع",
+                        "description_text": "از قهوه تا غذای اصلی، همه چیز",
+                        "icon_color": "#63bac6",
+                        "icon_background_background": "classic",
+                        "icon_background_color": "rgba(99,186,198,0.1)",
+                        "icon_border_border": "solid",
+                        "icon_border_color": "rgba(99,186,198,0.2)",
+                        "icon_border_width": {
+                          "unit": "px",
+                          "size": "1",
+                          "isLinked": false,
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1"
+                        },
+                        "icon_border_radius": {
+                          "unit": "px",
+                          "top": "50",
+                          "right": "50",
+                          "bottom": "50",
+                          "left": "50",
+                          "isLinked": true
+                        },
+                        "icon_size": {
+                          "unit": "px",
+                          "size": "20"
+                        },
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": "10",
+                          "isLinked": true
+                        },
+                        "title_color": "#ffffff",
+                        "description_color": "#8b9aa5",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "title_typography_font_weight": "600",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": "12"
+                        },
+                        "position": "left"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000111",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-users",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "تیم حرفه‌ای",
+                        "description_text": "باریستاها و سرآشپزهای مجرب",
+                        "icon_color": "#63bac6",
+                        "icon_background_background": "classic",
+                        "icon_background_color": "rgba(99,186,198,0.1)",
+                        "icon_border_border": "solid",
+                        "icon_border_color": "rgba(99,186,198,0.2)",
+                        "icon_border_width": {
+                          "unit": "px",
+                          "size": "1",
+                          "isLinked": false,
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1"
+                        },
+                        "icon_border_radius": {
+                          "unit": "px",
+                          "top": "50",
+                          "right": "50",
+                          "bottom": "50",
+                          "left": "50",
+                          "isLinked": true
+                        },
+                        "icon_size": {
+                          "unit": "px",
+                          "size": "20"
+                        },
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": "10",
+                          "isLinked": true
+                        },
+                        "title_color": "#ffffff",
+                        "description_color": "#8b9aa5",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "title_typography_font_weight": "600",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": "12"
+                        },
+                        "position": "left"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000112",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-star",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "بهترین کیفیت",
+                        "description_text": "مواد اولیه تازه و باکیفیت",
+                        "icon_color": "#63bac6",
+                        "icon_background_background": "classic",
+                        "icon_background_color": "rgba(99,186,198,0.1)",
+                        "icon_border_border": "solid",
+                        "icon_border_color": "rgba(99,186,198,0.2)",
+                        "icon_border_width": {
+                          "unit": "px",
+                          "size": "1",
+                          "isLinked": false,
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1"
+                        },
+                        "icon_border_radius": {
+                          "unit": "px",
+                          "top": "50",
+                          "right": "50",
+                          "bottom": "50",
+                          "left": "50",
+                          "isLinked": true
+                        },
+                        "icon_size": {
+                          "unit": "px",
+                          "size": "20"
+                        },
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": "10",
+                          "isLinked": true
+                        },
+                        "title_color": "#ffffff",
+                        "description_color": "#8b9aa5",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "title_typography_font_weight": "600",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": "12"
+                        },
+                        "position": "left"
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "00000114",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "بیشتر درباره ما",
+                    "link": {
+                      "url": "/about",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "button_text_color": "#63bac6",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "button_border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "button_background_color": "transparent",
+                    "button_border_border": "solid",
+                    "button_border_color": "#63bac6",
+                    "button_border_width": {
+                      "unit": "px",
+                      "size": "2",
+                      "isLinked": false,
+                      "top": "2",
+                      "right": "2",
+                      "bottom": "2",
+                      "left": "2"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "00000124",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_gap": {
+          "row": "0",
+          "column": "20",
+          "unit": "px"
+        },
+        "padding": {
+          "unit": "px",
+          "size": "48",
+          "isLinked": false,
+          "top": "48",
+          "right": "48",
+          "bottom": "48",
+          "left": "48"
+        }
+      },
+      "elements": [
+        {
+          "id": "00000122",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center",
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "32",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "00000120",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                  "row": "12",
+                  "column": "0",
+                  "unit": "px"
+                },
+                "flex_align_items": "center"
+              },
+              "elements": [
+                {
+                  "id": "00000118",
+                  "elType": "widget",
+                  "widgetType": "icon",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-camera",
+                      "library": "fa-solid"
+                    },
+                    "icon_color": "#63bac6",
+                    "icon_background_background": "classic",
+                    "icon_background_color": "rgba(99,186,198,0.1)",
+                    "icon_border_border": "solid",
+                    "icon_border_color": "rgba(99,186,198,0.2)",
+                    "icon_border_width": {
+                      "unit": "px",
+                      "size": "1",
+                      "isLinked": false,
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1"
+                    },
+                    "icon_border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "icon_padding": {
+                      "unit": "px",
+                      "size": "8",
+                      "isLinked": true
+                    },
+                    "icon_size": {
+                      "unit": "px",
+                      "size": "18"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000119",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "گالری تصاویر",
+                    "header_size": "h2",
+                    "align": "right",
+                    "title_color": "#ffffff",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "28"
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "00000121",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "مشاهده همه",
+                "link": {
+                  "url": "/gallery",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "button_text_color": "rgba(99,186,198,0.7)",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_weight": "600",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "14"
+                },
+                "button_border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50",
+                  "isLinked": true
+                },
+                "button_background_color": "transparent"
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000123",
+          "elType": "widget",
+          "widgetType": "image-gallery",
+          "settings": {
+            "wp_gallery": [
+              {
+                "url": "https://images.unsplash.com/photo-1461026861981-344fae5e7af0?w=400&q=80",
+                "id": "1"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=400&q=80",
+                "id": "2"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1546069901-ba9599a7eaa5?w=400&q=80",
+                "id": "3"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1551024601-b5117d5f5d8f?w=400&q=80",
+                "id": "4"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1453614512568-c4021d66884c?w=400&q=80",
+                "id": "5"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34cf?w=400&q=80",
+                "id": "6"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1600&q=80",
+                "id": "7"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600&q=80",
+                "id": "8"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=600&q=80",
+                "id": "9"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800&q=80",
+                "id": "10"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1442975631115-c4f7b05b8a2c?w=600&q=80",
+                "id": "11"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1568901346375-23c9450f58ae?w=600&q=80",
+                "id": "12"
+              }
+            ],
+            "gallery_columns": "4",
+            "gallery_spacing": {
+              "unit": "px",
+              "size": "12"
+            },
+            "gallery_border_radius": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16",
+              "isLinked": true
+            }
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "00000132",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_gap": {
+          "row": "0",
+          "column": "20",
+          "unit": "px"
+        },
+        "padding": {
+          "unit": "px",
+          "size": "48",
+          "isLinked": false,
+          "top": "48",
+          "right": "48",
+          "bottom": "48",
+          "left": "48"
+        },
+        "flex_align_items": "center"
+      },
+      "elements": [
+        {
+          "id": "00000127",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_gap": {
+              "row": "8",
+              "column": "0",
+              "unit": "px"
+            },
+            "flex_align_items": "center",
+            "background_background": "classic",
+            "background_color": "rgba(99,186,198,0.1)",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.2)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "50",
+              "right": "50",
+              "bottom": "50",
+              "left": "50",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "isLinked": false,
+              "top": "6",
+              "right": "16",
+              "bottom": "6",
+              "left": "16"
+            }
+          },
+          "elements": [
+            {
+              "id": "00000125",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "selected_icon": {
+                  "value": "fab fa-instagram",
+                  "library": "fa-brands"
+                },
+                "icon_color": "#63bac6",
+                "icon_size": {
+                  "unit": "px",
+                  "size": "16"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000126",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "@cafeino",
+                "header_size": "div",
+                "align": "right",
+                "title_color": "#63bac6",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "12"
+                },
+                "typography_font_weight": "500"
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000128",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "ما را در اینستاگرام دنبال کنید",
+            "header_size": "h2",
+            "align": "right",
+            "title_color": "#ffffff",
+            "typography_typography": "custom",
+            "typography_font_family": "Vazirmatn",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "28"
+            },
+            "typography_font_weight": "700"
+          },
+          "elements": []
+        },
+        {
+          "id": "00000129",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>لحظه‌های روزمره کافئینو، قهوه‌های تازه، غذاهای خوشمزه و فضای دنج ما را در اینستاگرام ببینید.</p>",
+            "text_color": "#8b9aa5",
+            "align": "right",
+            "typography_typography": "custom",
+            "typography_font_family": "Vazirmatn",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "14"
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": "1.8"
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "00000130",
+          "elType": "widget",
+          "widgetType": "image-gallery",
+          "settings": {
+            "wp_gallery": [
+              {
+                "url": "https://images.unsplash.com/photo-1461026861981-344fae5e7af0?w=400&q=80",
+                "id": "1"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=400&q=80",
+                "id": "2"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1546069901-ba9599a7eaa5?w=400&q=80",
+                "id": "3"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1551024601-b5117d5f5d8f?w=400&q=80",
+                "id": "4"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1453614512568-c4021d66884c?w=400&q=80",
+                "id": "5"
+              },
+              {
+                "url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34cf?w=400&q=80",
+                "id": "6"
+              }
+            ],
+            "gallery_columns": "6",
+            "gallery_spacing": {
+              "unit": "px",
+              "size": "10"
+            },
+            "gallery_border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "00000131",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "مشاهده اینستاگرام",
+            "link": {
+              "url": "https://instagram.com/cafeino",
+              "is_external": "",
+              "nofollow": "",
+              "custom_attributes": ""
+            },
+            "button_text_color": "#0a1219",
+            "typography_typography": "custom",
+            "typography_font_family": "Vazirmatn",
+            "typography_font_weight": "600",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "14"
+            },
+            "button_border_radius": {
+              "unit": "px",
+              "top": "50",
+              "right": "50",
+              "bottom": "50",
+              "left": "50",
+              "isLinked": true
+            },
+            "button_background_color": "#63bac6"
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "00000157",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_gap": {
+          "row": "0",
+          "column": "20",
+          "unit": "px"
+        },
+        "padding": {
+          "unit": "px",
+          "size": "48",
+          "isLinked": false,
+          "top": "48",
+          "right": "48",
+          "bottom": "48",
+          "left": "48"
+        }
+      },
+      "elements": [
+        {
+          "id": "00000135",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_gap": {
+              "row": "12",
+              "column": "0",
+              "unit": "px"
+            },
+            "flex_align_items": "center",
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "32",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "00000133",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-phone",
+                  "library": "fa-solid"
+                },
+                "icon_color": "#63bac6",
+                "icon_background_background": "classic",
+                "icon_background_color": "rgba(99,186,198,0.1)",
+                "icon_border_border": "solid",
+                "icon_border_color": "rgba(99,186,198,0.2)",
+                "icon_border_width": {
+                  "unit": "px",
+                  "size": "1",
+                  "isLinked": false,
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1"
+                },
+                "icon_border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50",
+                  "isLinked": true
+                },
+                "icon_padding": {
+                  "unit": "px",
+                  "size": "8",
+                  "isLinked": true
+                },
+                "icon_size": {
+                  "unit": "px",
+                  "size": "18"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000134",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "تماس با ما",
+                "header_size": "h2",
+                "align": "right",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "28"
+                },
+                "typography_font_weight": "700"
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000155",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_gap": {
+              "row": "16",
+              "column": "0",
+              "unit": "px"
+            },
+            "flex_wrap": "wrap"
+          },
+          "elements": [
+            {
+              "id": "00000139",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#05263A",
+                "border_border": "solid",
+                "border_color": "rgba(99,186,198,0.1)",
+                "border_width": {
+                  "unit": "px",
+                  "size": "1",
+                  "isLinked": false,
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1"
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "24",
+                  "bottom": "24",
+                  "left": "24",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "20",
+                  "isLinked": false,
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20"
+                },
+                "content_width": "24%"
+              },
+              "elements": [
+                {
+                  "id": "00000136",
+                  "elType": "widget",
+                  "widgetType": "icon",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-map-marker-alt",
+                      "library": "fa-solid"
+                    },
+                    "icon_color": "#63bac6",
+                    "icon_background_background": "classic",
+                    "icon_background_color": "rgba(99,186,198,0.1)",
+                    "icon_border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "icon_padding": {
+                      "unit": "px",
+                      "size": "10",
+                      "isLinked": true
+                    },
+                    "icon_size": {
+                      "unit": "px",
+                      "size": "20"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000137",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "آدرس",
+                    "header_size": "h3",
+                    "align": "right",
+                    "title_color": "#ffffff",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "typography_font_weight": "600"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000138",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>تهران، خیابان نمونه، پلاک ۱۲</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "00000143",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#05263A",
+                "border_border": "solid",
+                "border_color": "rgba(99,186,198,0.1)",
+                "border_width": {
+                  "unit": "px",
+                  "size": "1",
+                  "isLinked": false,
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1"
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "24",
+                  "bottom": "24",
+                  "left": "24",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "20",
+                  "isLinked": false,
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20"
+                },
+                "content_width": "24%"
+              },
+              "elements": [
+                {
+                  "id": "00000140",
+                  "elType": "widget",
+                  "widgetType": "icon",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-phone",
+                      "library": "fa-solid"
+                    },
+                    "icon_color": "#63bac6",
+                    "icon_background_background": "classic",
+                    "icon_background_color": "rgba(99,186,198,0.1)",
+                    "icon_border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "icon_padding": {
+                      "unit": "px",
+                      "size": "10",
+                      "isLinked": true
+                    },
+                    "icon_size": {
+                      "unit": "px",
+                      "size": "20"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000141",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "تلفن",
+                    "header_size": "h3",
+                    "align": "right",
+                    "title_color": "#ffffff",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "typography_font_weight": "600"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000142",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p dir=\"ltr\">۰۲۱-۱۲۳۴۵۶۷۸</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "00000147",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#05263A",
+                "border_border": "solid",
+                "border_color": "rgba(99,186,198,0.1)",
+                "border_width": {
+                  "unit": "px",
+                  "size": "1",
+                  "isLinked": false,
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1"
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "24",
+                  "bottom": "24",
+                  "left": "24",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "20",
+                  "isLinked": false,
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20"
+                },
+                "content_width": "24%"
+              },
+              "elements": [
+                {
+                  "id": "00000144",
+                  "elType": "widget",
+                  "widgetType": "icon",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-clock",
+                      "library": "fa-solid"
+                    },
+                    "icon_color": "#63bac6",
+                    "icon_background_background": "classic",
+                    "icon_background_color": "rgba(99,186,198,0.1)",
+                    "icon_border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "icon_padding": {
+                      "unit": "px",
+                      "size": "10",
+                      "isLinked": true
+                    },
+                    "icon_size": {
+                      "unit": "px",
+                      "size": "20"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000145",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "ساعات کاری",
+                    "header_size": "h3",
+                    "align": "right",
+                    "title_color": "#ffffff",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "typography_font_weight": "600"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000146",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>هر روز ۱۲:۰۰ تا ۲۴:۰۰</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "00000154",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#05263A",
+                "border_border": "solid",
+                "border_color": "rgba(99,186,198,0.1)",
+                "border_width": {
+                  "unit": "px",
+                  "size": "1",
+                  "isLinked": false,
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1"
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "24",
+                  "bottom": "24",
+                  "left": "24",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "20",
+                  "isLinked": false,
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20"
+                },
+                "content_width": "24%"
+              },
+              "elements": [
+                {
+                  "id": "00000148",
+                  "elType": "widget",
+                  "widgetType": "icon",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fab fa-instagram",
+                      "library": "fa-brands"
+                    },
+                    "icon_color": "#63bac6",
+                    "icon_background_background": "classic",
+                    "icon_background_color": "rgba(99,186,198,0.1)",
+                    "icon_border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "icon_padding": {
+                      "unit": "px",
+                      "size": "10",
+                      "isLinked": true
+                    },
+                    "icon_size": {
+                      "unit": "px",
+                      "size": "20"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000149",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "شبکه‌های اجتماعی",
+                    "header_size": "h3",
+                    "align": "right",
+                    "title_color": "#ffffff",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "14"
+                    },
+                    "typography_font_weight": "600"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000153",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_gap": {
+                      "row": "8",
+                      "column": "0",
+                      "unit": "px"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000150",
+                      "elType": "widget",
+                      "widgetType": "icon",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fab fa-instagram",
+                          "library": "fa-brands"
+                        },
+                        "icon_color": "#63bac6",
+                        "icon_border_border": "solid",
+                        "icon_border_color": "rgba(99,186,198,0.2)",
+                        "icon_border_radius": {
+                          "unit": "px",
+                          "top": "50",
+                          "right": "50",
+                          "bottom": "50",
+                          "left": "50",
+                          "isLinked": true
+                        },
+                        "link": {
+                          "url": "https://instagram.com/cafeino",
+                          "is_external": "on"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000151",
+                      "elType": "widget",
+                      "widgetType": "icon",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fab fa-telegram",
+                          "library": "fa-brands"
+                        },
+                        "icon_color": "#63bac6",
+                        "icon_border_border": "solid",
+                        "icon_border_color": "rgba(99,186,198,0.2)",
+                        "icon_border_radius": {
+                          "unit": "px",
+                          "top": "50",
+                          "right": "50",
+                          "bottom": "50",
+                          "left": "50",
+                          "isLinked": true
+                        },
+                        "link": {
+                          "url": "https://t.me/cafeino",
+                          "is_external": "on"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000152",
+                      "elType": "widget",
+                      "widgetType": "icon",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fab fa-whatsapp",
+                          "library": "fa-brands"
+                        },
+                        "icon_color": "#63bac6",
+                        "icon_border_border": "solid",
+                        "icon_border_color": "rgba(99,186,198,0.2)",
+                        "icon_border_radius": {
+                          "unit": "px",
+                          "top": "50",
+                          "right": "50",
+                          "bottom": "50",
+                          "left": "50",
+                          "isLinked": true
+                        },
+                        "link": {
+                          "url": "https://wa.me/09123456789",
+                          "is_external": "on"
+                        }
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000156",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "<iframe src=\"https://www.openstreetmap.org/export/embed.html?bbox=51.389,35.696,51.419,35.716&layer=mapnik\" style=\"width:100%;height:300px;border:none;border-radius:24px;filter:invert(0.9) hue-rotate(180deg) brightness(0.7) contrast(1.1);\" loading=\"lazy\" title=\"نقشه کافئینو\"></iframe>"
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "page_settings": {
+    "content_width": "full",
+    "hide_title": "yes"
+  },
+  "version": "0.4",
+  "title": "کافئینو - صفحه اصلی",
+  "type": "page"
+}

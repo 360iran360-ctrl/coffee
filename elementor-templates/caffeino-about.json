@@ -1,0 +1,1035 @@
+{
+  "content": [
+    {
+      "id": "00000465",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_gap": {
+          "row": "0",
+          "column": "20",
+          "unit": "px"
+        },
+        "padding": {
+          "unit": "px",
+          "size": "48",
+          "isLinked": false,
+          "top": "48",
+          "right": "48",
+          "bottom": "48",
+          "left": "48"
+        },
+        "flex_align_items": "center"
+      },
+      "elements": [
+        {
+          "id": "00000463",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_gap": {
+              "row": "8",
+              "column": "0",
+              "unit": "px"
+            },
+            "flex_align_items": "center",
+            "background_background": "classic",
+            "background_color": "rgba(99,186,198,0.1)",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.2)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "50",
+              "right": "50",
+              "bottom": "50",
+              "left": "50",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "isLinked": false,
+              "top": "6",
+              "right": "16",
+              "bottom": "6",
+              "left": "16"
+            }
+          },
+          "elements": [
+            {
+              "id": "00000461",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-home",
+                  "library": "fa-solid"
+                },
+                "icon_color": "#63bac6",
+                "icon_size": {
+                  "unit": "px",
+                  "size": "14"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000462",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "درباره ما",
+                "header_size": "div",
+                "align": "right",
+                "title_color": "#63bac6",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "12"
+                },
+                "typography_font_weight": "500"
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000464",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "درباره کافئینو",
+            "header_size": "h1",
+            "align": "right",
+            "title_color": "#ffffff",
+            "typography_typography": "custom",
+            "typography_font_family": "Vazirmatn",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "48"
+            },
+            "typography_font_weight": "700"
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "00000470",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#05263A",
+        "border_border": "solid",
+        "border_color": "rgba(99,186,198,0.1)",
+        "border_width": {
+          "unit": "px",
+          "size": "1",
+          "isLinked": false,
+          "top": "1",
+          "right": "1",
+          "bottom": "1",
+          "left": "1"
+        },
+        "border_radius": {
+          "unit": "px",
+          "top": "24",
+          "right": "24",
+          "bottom": "24",
+          "left": "24",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "size": "0",
+          "isLinked": false,
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0"
+        },
+        "position": "relative",
+        "min_height": "400px"
+      },
+      "elements": [
+        {
+          "id": "00000466",
+          "elType": "widget",
+          "widgetType": "image",
+          "settings": {
+            "image": {
+              "url": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=400&q=80",
+              "id": ""
+            },
+            "image_size": "full",
+            "width": {
+              "unit": "%",
+              "size": "100"
+            },
+            "height": {
+              "unit": "px",
+              "size": "400"
+            },
+            "object_fit": "cover",
+            "image_border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "00000469",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "flex_gap": {
+              "row": "0",
+              "column": "12",
+              "unit": "px"
+            },
+            "position": "absolute",
+            "bottom": "40px",
+            "right": "40px",
+            "width": "60%"
+          },
+          "elements": [
+            {
+              "id": "00000467",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "جایی برای لحظه‌های به‌یادماندنی",
+                "header_size": "h2",
+                "align": "right",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "36"
+                },
+                "typography_font_weight": "700"
+              },
+              "elements": []
+            },
+            {
+              "id": "00000468",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>کافئینو جایی است برای آرامش، لذت و تجربه طعم‌های به‌یادماندنی. ما تلاش می‌کنیم با ترکیب قهوه باکیفیت، غذای تازه، فضای دلنشین و میزبانی حرفه‌ای، لحظه‌هایی متفاوت برای شما خلق کنیم.</p>",
+                "text_color": "#aeb6c0",
+                "align": "right",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "15"
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": "1.8"
+                }
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "00000487",
+      "elType": "container",
+      "settings": {
+        "flex_direction": "row",
+        "flex_gap": {
+          "row": "16",
+          "column": "0",
+          "unit": "px"
+        },
+        "flex_wrap": "wrap"
+      },
+      "elements": [
+        {
+          "id": "00000474",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "24",
+              "isLinked": false,
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24"
+            },
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "content_width": "24%"
+          },
+          "elements": [
+            {
+              "id": "00000471",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-home",
+                  "library": "fa-solid"
+                },
+                "icon_color": "#63bac6",
+                "icon_background_background": "classic",
+                "icon_background_color": "rgba(99,186,198,0.1)",
+                "icon_border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50",
+                  "isLinked": true
+                },
+                "icon_padding": {
+                  "unit": "px",
+                  "size": "12",
+                  "isLinked": true
+                },
+                "icon_size": {
+                  "unit": "px",
+                  "size": "24"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000472",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "محیطی گرم و صمیمی",
+                "header_size": "h3",
+                "align": "right",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "14"
+                },
+                "typography_font_weight": "600"
+              },
+              "elements": []
+            },
+            {
+              "id": "00000473",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>فضایی دنج برای آرامش و گفتگو</p>",
+                "text_color": "#8b9aa5",
+                "align": "right",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "12"
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": "1.8"
+                }
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000478",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "24",
+              "isLinked": false,
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24"
+            },
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "content_width": "24%"
+          },
+          "elements": [
+            {
+              "id": "00000475",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-list",
+                  "library": "fa-solid"
+                },
+                "icon_color": "#63bac6",
+                "icon_background_background": "classic",
+                "icon_background_color": "rgba(99,186,198,0.1)",
+                "icon_border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50",
+                  "isLinked": true
+                },
+                "icon_padding": {
+                  "unit": "px",
+                  "size": "12",
+                  "isLinked": true
+                },
+                "icon_size": {
+                  "unit": "px",
+                  "size": "24"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000476",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "منوی متنوع",
+                "header_size": "h3",
+                "align": "right",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "14"
+                },
+                "typography_font_weight": "600"
+              },
+              "elements": []
+            },
+            {
+              "id": "00000477",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>از قهوه تا غذای اصلی، همه چیز</p>",
+                "text_color": "#8b9aa5",
+                "align": "right",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "12"
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": "1.8"
+                }
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000482",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "24",
+              "isLinked": false,
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24"
+            },
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "content_width": "24%"
+          },
+          "elements": [
+            {
+              "id": "00000479",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-users",
+                  "library": "fa-solid"
+                },
+                "icon_color": "#63bac6",
+                "icon_background_background": "classic",
+                "icon_background_color": "rgba(99,186,198,0.1)",
+                "icon_border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50",
+                  "isLinked": true
+                },
+                "icon_padding": {
+                  "unit": "px",
+                  "size": "12",
+                  "isLinked": true
+                },
+                "icon_size": {
+                  "unit": "px",
+                  "size": "24"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000480",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "تیم حرفه‌ای",
+                "header_size": "h3",
+                "align": "right",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "14"
+                },
+                "typography_font_weight": "600"
+              },
+              "elements": []
+            },
+            {
+              "id": "00000481",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>باریستاها و سرآشپزهای مجرب</p>",
+                "text_color": "#8b9aa5",
+                "align": "right",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "12"
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": "1.8"
+                }
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000486",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "24",
+              "isLinked": false,
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24"
+            },
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "content_width": "24%"
+          },
+          "elements": [
+            {
+              "id": "00000483",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-star",
+                  "library": "fa-solid"
+                },
+                "icon_color": "#63bac6",
+                "icon_background_background": "classic",
+                "icon_background_color": "rgba(99,186,198,0.1)",
+                "icon_border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50",
+                  "isLinked": true
+                },
+                "icon_padding": {
+                  "unit": "px",
+                  "size": "12",
+                  "isLinked": true
+                },
+                "icon_size": {
+                  "unit": "px",
+                  "size": "24"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000484",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "بهترین کیفیت",
+                "header_size": "h3",
+                "align": "right",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "14"
+                },
+                "typography_font_weight": "600"
+              },
+              "elements": []
+            },
+            {
+              "id": "00000485",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>مواد اولیه تازه و باکیفیت</p>",
+                "text_color": "#8b9aa5",
+                "align": "right",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "12"
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": "1.8"
+                }
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "00000499",
+      "elType": "container",
+      "settings": {
+        "flex_direction": "row",
+        "flex_gap": {
+          "row": "32",
+          "column": "0",
+          "unit": "px"
+        },
+        "flex_align_items": "center",
+        "flex_wrap": "wrap"
+      },
+      "elements": [
+        {
+          "id": "00000492",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_gap": {
+              "row": "12",
+              "column": "12",
+              "unit": "px"
+            },
+            "flex_wrap": "wrap",
+            "content_width": "48%"
+          },
+          "elements": [
+            {
+              "id": "00000488",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1461026861981-344fae5e7af0?w=400&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "قهوه",
+                "image_border_border": "solid",
+                "image_border_color": "rgba(99,186,198,0.15)",
+                "image_border_width": {
+                  "unit": "px",
+                  "size": "1",
+                  "isLinked": false,
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1"
+                },
+                "image_border_radius": {
+                  "unit": "",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000489",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1546069901-ba9599a7eaa5?w=400&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "غذا",
+                "image_border_border": "solid",
+                "image_border_color": "rgba(99,186,198,0.15)",
+                "image_border_width": {
+                  "unit": "px",
+                  "size": "1",
+                  "isLinked": false,
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1"
+                },
+                "image_border_radius": {
+                  "unit": "",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000490",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1551024601-b5117d5f5d8f?w=400&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "دسر",
+                "image_border_border": "solid",
+                "image_border_color": "rgba(99,186,198,0.15)",
+                "image_border_width": {
+                  "unit": "px",
+                  "size": "1",
+                  "isLinked": false,
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1"
+                },
+                "image_border_radius": {
+                  "unit": "",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000491",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1453614512568-c4021d66884c?w=400&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "فضای شبانه",
+                "image_border_border": "solid",
+                "image_border_color": "rgba(99,186,198,0.15)",
+                "image_border_width": {
+                  "unit": "px",
+                  "size": "1",
+                  "isLinked": false,
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1"
+                },
+                "image_border_radius": {
+                  "unit": "",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                }
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000498",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "flex_gap": {
+              "row": "0",
+              "column": "16",
+              "unit": "px"
+            },
+            "content_width": "48%"
+          },
+          "elements": [
+            {
+              "id": "00000493",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "داستان ما",
+                "header_size": "h2",
+                "align": "right",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "28"
+                },
+                "typography_font_weight": "700"
+              },
+              "elements": []
+            },
+            {
+              "id": "00000494",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>کافئینو با رویکردی متفاوت به دنیای قهوه و رستوران متولد شد. ما باور داریم که هر فنجان قهوه و هر بشقاب غذا، فرصتی است برای خلق یک خاطره.</p>",
+                "text_color": "#8b9aa5",
+                "align": "right",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "14"
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": "1.8"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000495",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>از انتخاب دانه‌های قهوه تک‌ریشه تا استفاده از تازه‌ترین مواد اولیه در آشپزخانه، هر جزئیات برای تجربه‌ای خاص و متمایز طراحی شده است.</p>",
+                "text_color": "#8b9aa5",
+                "align": "right",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "14"
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": "1.8"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000496",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>تیم حرفه‌ای ما، از باریستاها تا سرآشپزها، با عشق و تعهد، بهترین کیفیت را برای شما تضمین می‌کنند.</p>",
+                "text_color": "#8b9aa5",
+                "align": "right",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "14"
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": "1.8"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000497",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "مشاهده منو",
+                "link": {
+                  "url": "/menu",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "button_text_color": "#0a1219",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_weight": "600",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "14"
+                },
+                "button_border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50",
+                  "isLinked": true
+                },
+                "button_background_color": "#63bac6"
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "page_settings": {
+    "content_width": "full",
+    "hide_title": "yes"
+  },
+  "version": "0.4",
+  "title": "کافئینو - درباره ما",
+  "type": "page"
+}

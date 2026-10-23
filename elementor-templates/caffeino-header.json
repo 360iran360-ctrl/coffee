@@ -1,0 +1,462 @@
+{
+  "content": [
+    {
+      "id": "00000171",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "row",
+        "flex_justify_content": "space-between",
+        "flex_align_items": "center",
+        "padding": {
+          "unit": "px",
+          "isLinked": false,
+          "top": "16",
+          "right": "24",
+          "bottom": "16",
+          "left": "24"
+        },
+        "background_background": "classic",
+        "background_color": "rgba(10,18,25,0.9)",
+        "background_overlay_opacity": 90,
+        "border_border": "solid",
+        "border_color": "rgba(99,186,198,0.1)",
+        "border_width": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "1",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "00000167",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "flex_gap": {
+              "row": "0",
+              "column": "0",
+              "unit": "px"
+            }
+          },
+          "elements": [
+            {
+              "id": "00000165",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "CAFEINO",
+                "header_size": "div",
+                "align": "right",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "24"
+                },
+                "typography_font_weight": "700",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": "-0.5"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000166",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "CAFE & RESTAURANT",
+                "header_size": "div",
+                "align": "right",
+                "title_color": "rgba(99,186,198,0.7)",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "10"
+                },
+                "typography_font_weight": "500",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": "3"
+                },
+                "typography_text_transform": "uppercase"
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000168",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_gap": {
+              "row": "4",
+              "column": "0",
+              "unit": "px"
+            },
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "00000158",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "خانه",
+                "link": {
+                  "url": "/",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "button_text_color": "#aeb6c0",
+                "button_background_color": "transparent",
+                "button_border_border": "none",
+                "button_border_radius": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "8",
+                  "bottom": "8",
+                  "left": "8",
+                  "isLinked": true
+                },
+                "button_padding": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "12",
+                  "bottom": "8",
+                  "left": "12",
+                  "isLinked": false
+                },
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "14"
+                },
+                "typography_font_weight": "400",
+                "button_css_id": ""
+              },
+              "elements": []
+            },
+            {
+              "id": "00000159",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "منو",
+                "link": {
+                  "url": "/menu",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "button_text_color": "#aeb6c0",
+                "button_background_color": "transparent",
+                "button_border_border": "none",
+                "button_border_radius": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "8",
+                  "bottom": "8",
+                  "left": "8",
+                  "isLinked": true
+                },
+                "button_padding": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "12",
+                  "bottom": "8",
+                  "left": "12",
+                  "isLinked": false
+                },
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "14"
+                },
+                "typography_font_weight": "400",
+                "button_css_id": "menu"
+              },
+              "elements": []
+            },
+            {
+              "id": "00000160",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "گالری",
+                "link": {
+                  "url": "/gallery",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "button_text_color": "#aeb6c0",
+                "button_background_color": "transparent",
+                "button_border_border": "none",
+                "button_border_radius": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "8",
+                  "bottom": "8",
+                  "left": "8",
+                  "isLinked": true
+                },
+                "button_padding": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "12",
+                  "bottom": "8",
+                  "left": "12",
+                  "isLinked": false
+                },
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "14"
+                },
+                "typography_font_weight": "400",
+                "button_css_id": "gallery"
+              },
+              "elements": []
+            },
+            {
+              "id": "00000161",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "رزرو",
+                "link": {
+                  "url": "/reservation",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "button_text_color": "#aeb6c0",
+                "button_background_color": "transparent",
+                "button_border_border": "none",
+                "button_border_radius": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "8",
+                  "bottom": "8",
+                  "left": "8",
+                  "isLinked": true
+                },
+                "button_padding": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "12",
+                  "bottom": "8",
+                  "left": "12",
+                  "isLinked": false
+                },
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "14"
+                },
+                "typography_font_weight": "400",
+                "button_css_id": "reservation"
+              },
+              "elements": []
+            },
+            {
+              "id": "00000162",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "مراسم و جشن‌ها",
+                "link": {
+                  "url": "/events",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "button_text_color": "#aeb6c0",
+                "button_background_color": "transparent",
+                "button_border_border": "none",
+                "button_border_radius": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "8",
+                  "bottom": "8",
+                  "left": "8",
+                  "isLinked": true
+                },
+                "button_padding": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "12",
+                  "bottom": "8",
+                  "left": "12",
+                  "isLinked": false
+                },
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "14"
+                },
+                "typography_font_weight": "400",
+                "button_css_id": "events"
+              },
+              "elements": []
+            },
+            {
+              "id": "00000163",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "درباره ما",
+                "link": {
+                  "url": "/about",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "button_text_color": "#aeb6c0",
+                "button_background_color": "transparent",
+                "button_border_border": "none",
+                "button_border_radius": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "8",
+                  "bottom": "8",
+                  "left": "8",
+                  "isLinked": true
+                },
+                "button_padding": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "12",
+                  "bottom": "8",
+                  "left": "12",
+                  "isLinked": false
+                },
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "14"
+                },
+                "typography_font_weight": "400",
+                "button_css_id": "about"
+              },
+              "elements": []
+            },
+            {
+              "id": "00000164",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "تماس با ما",
+                "link": {
+                  "url": "/contact",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "button_text_color": "#aeb6c0",
+                "button_background_color": "transparent",
+                "button_border_border": "none",
+                "button_border_radius": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "8",
+                  "bottom": "8",
+                  "left": "8",
+                  "isLinked": true
+                },
+                "button_padding": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "12",
+                  "bottom": "8",
+                  "left": "12",
+                  "isLinked": false
+                },
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "14"
+                },
+                "typography_font_weight": "400",
+                "button_css_id": "contact"
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000170",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_gap": {
+              "row": "12",
+              "column": "0",
+              "unit": "px"
+            },
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "00000169",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "رزرو آنلاین",
+                "link": {
+                  "url": "/reservation",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "button_text_color": "#0a1219",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_weight": "600",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "14"
+                },
+                "button_border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50",
+                  "isLinked": true
+                },
+                "button_background_color": "#63bac6"
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "page_settings": {},
+  "version": "0.4",
+  "title": "کافئینو - هدر",
+  "type": "header"
+}

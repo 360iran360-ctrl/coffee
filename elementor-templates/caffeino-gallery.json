@@ -1,0 +1,230 @@
+{
+  "content": [
+    {
+      "id": "00000451",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_gap": {
+          "row": "0",
+          "column": "20",
+          "unit": "px"
+        },
+        "padding": {
+          "unit": "px",
+          "size": "48",
+          "isLinked": false,
+          "top": "48",
+          "right": "48",
+          "bottom": "48",
+          "left": "48"
+        },
+        "flex_align_items": "center"
+      },
+      "elements": [
+        {
+          "id": "00000448",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_gap": {
+              "row": "8",
+              "column": "0",
+              "unit": "px"
+            },
+            "flex_align_items": "center",
+            "background_background": "classic",
+            "background_color": "rgba(99,186,198,0.1)",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.2)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "50",
+              "right": "50",
+              "bottom": "50",
+              "left": "50",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "isLinked": false,
+              "top": "6",
+              "right": "16",
+              "bottom": "6",
+              "left": "16"
+            }
+          },
+          "elements": [
+            {
+              "id": "00000446",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-camera",
+                  "library": "fa-solid"
+                },
+                "icon_color": "#63bac6",
+                "icon_size": {
+                  "unit": "px",
+                  "size": "14"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000447",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "گالری",
+                "header_size": "div",
+                "align": "right",
+                "title_color": "#63bac6",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "12"
+                },
+                "typography_font_weight": "500"
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000449",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "گالری کافئینو",
+            "header_size": "h1",
+            "align": "right",
+            "title_color": "#ffffff",
+            "typography_typography": "custom",
+            "typography_font_family": "Vazirmatn",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "48"
+            },
+            "typography_font_weight": "700"
+          },
+          "elements": []
+        },
+        {
+          "id": "00000450",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>لحظه‌های زیبای کافئینو را کشف کنید.</p>",
+            "text_color": "#8b9aa5",
+            "align": "right",
+            "typography_typography": "custom",
+            "typography_font_family": "Vazirmatn",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "14"
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": "1.8"
+            }
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "00000452",
+      "elType": "widget",
+      "widgetType": "image-gallery",
+      "settings": {
+        "wp_gallery": [
+          {
+            "url": "https://images.unsplash.com/photo-1461026861981-344fae5e7af0?w=400&q=80",
+            "id": "1"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=400&q=80",
+            "id": "2"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1546069901-ba9599a7eaa5?w=400&q=80",
+            "id": "3"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1551024601-b5117d5f5d8f?w=400&q=80",
+            "id": "4"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1453614512568-c4021d66884c?w=400&q=80",
+            "id": "5"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34cf?w=400&q=80",
+            "id": "6"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1600&q=80",
+            "id": "7"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600&q=80",
+            "id": "8"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=600&q=80",
+            "id": "9"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800&q=80",
+            "id": "10"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1442975631115-c4f7b05b8a2c?w=600&q=80",
+            "id": "11"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1568901346375-23c9450f58ae?w=600&q=80",
+            "id": "12"
+          }
+        ],
+        "gallery_columns": "4",
+        "gallery_spacing": {
+          "unit": "px",
+          "size": "16"
+        },
+        "gallery_border_radius": {
+          "unit": "px",
+          "top": "16",
+          "right": "16",
+          "bottom": "16",
+          "left": "16",
+          "isLinked": true
+        },
+        "gallery_links_to": "file"
+      },
+      "elements": []
+    }
+  ],
+  "page_settings": {
+    "content_width": "full",
+    "hide_title": "yes"
+  },
+  "version": "0.4",
+  "title": "کافئینو - گالری",
+  "type": "page"
+}

@@ -1,0 +1,4510 @@
+{
+  "content": [
+    {
+      "id": "00000388",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_gap": {
+          "row": "0",
+          "column": "20",
+          "unit": "px"
+        },
+        "padding": {
+          "unit": "px",
+          "size": "48",
+          "isLinked": false,
+          "top": "48",
+          "right": "48",
+          "bottom": "48",
+          "left": "48"
+        },
+        "flex_align_items": "center"
+      },
+      "elements": [
+        {
+          "id": "00000385",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_gap": {
+              "row": "8",
+              "column": "0",
+              "unit": "px"
+            },
+            "flex_align_items": "center",
+            "background_background": "classic",
+            "background_color": "rgba(99,186,198,0.1)",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.2)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "50",
+              "right": "50",
+              "bottom": "50",
+              "left": "50",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "isLinked": false,
+              "top": "6",
+              "right": "16",
+              "bottom": "6",
+              "left": "16"
+            }
+          },
+          "elements": [
+            {
+              "id": "00000383",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-coffee",
+                  "library": "fa-solid"
+                },
+                "icon_color": "#63bac6",
+                "icon_size": {
+                  "unit": "px",
+                  "size": "14"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000384",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "منوی کافئینو",
+                "header_size": "div",
+                "align": "right",
+                "title_color": "#63bac6",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "12"
+                },
+                "typography_font_weight": "500"
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000386",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "منوی آنلاین",
+            "header_size": "h1",
+            "align": "right",
+            "title_color": "#ffffff",
+            "typography_typography": "custom",
+            "typography_font_family": "Vazirmatn",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "48"
+            },
+            "typography_font_weight": "700"
+          },
+          "elements": []
+        },
+        {
+          "id": "00000387",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>از قهوه صبحگاهی تا شام ویژه، همه چیز برای یک تجربه خوشمزه.</p>",
+            "text_color": "#8b9aa5",
+            "align": "right",
+            "typography_typography": "custom",
+            "typography_font_family": "Vazirmatn",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "14"
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": "1.8"
+            }
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "00000389",
+      "elType": "widget",
+      "widgetType": "html",
+      "settings": {
+        "html": "<div style=\"display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-bottom:32px;\" id=\"cafeino-menu-tabs\"><button class=\"cafeino-tab active\" data-cat=\"all\" style=\"background:#63bac6;color:#031C2C;border:none;padding:8px 16px;border-radius:50px;font-family:Vazirmatn;font-size:14px;cursor:pointer;font-weight:500;\">همه</button><button class=\"cafeino-tab\" data-cat=\"coffee\" style=\"background:#05263A;color:#8b9aa5;border:1px solid rgba(99,186,198,0.1);padding:8px 16px;border-radius:50px;font-family:Vazirmatn;font-size:14px;cursor:pointer;\">قهوه و اسپرسو</button><button class=\"cafeino-tab\" data-cat=\"cold\" style=\"background:#05263A;color:#8b9aa5;border:1px solid rgba(99,186,198,0.1);padding:8px 16px;border-radius:50px;font-family:Vazirmatn;font-size:14px;cursor:pointer;\">نوشیدنی‌های سرد</button><button class=\"cafeino-tab\" data-cat=\"tea\" style=\"background:#05263A;color:#8b9aa5;border:1px solid rgba(99,186,198,0.1);padding:8px 16px;border-radius:50px;font-family:Vazirmatn;font-size:14px;cursor:pointer;\">چای و دمنوش</button><button class=\"cafeino-tab\" data-cat=\"breakfast\" style=\"background:#05263A;color:#8b9aa5;border:1px solid rgba(99,186,198,0.1);padding:8px 16px;border-radius:50px;font-family:Vazirmatn;font-size:14px;cursor:pointer;\">صبحانه</button><button class=\"cafeino-tab\" data-cat=\"appetizer\" style=\"background:#05263A;color:#8b9aa5;border:1px solid rgba(99,186,198,0.1);padding:8px 16px;border-radius:50px;font-family:Vazirmatn;font-size:14px;cursor:pointer;\">پیش‌غذا</button><button class=\"cafeino-tab\" data-cat=\"main\" style=\"background:#05263A;color:#8b9aa5;border:1px solid rgba(99,186,198,0.1);padding:8px 16px;border-radius:50px;font-family:Vazirmatn;font-size:14px;cursor:pointer;\">غذاهای اصلی</button><button class=\"cafeino-tab\" data-cat=\"pasta\" style=\"background:#05263A;color:#8b9aa5;border:1px solid rgba(99,186,198,0.1);padding:8px 16px;border-radius:50px;font-family:Vazirmatn;font-size:14px;cursor:pointer;\">پاستا</button><button class=\"cafeino-tab\" data-cat=\"burger\" style=\"background:#05263A;color:#8b9aa5;border:1px solid rgba(99,186,198,0.1);padding:8px 16px;border-radius:50px;font-family:Vazirmatn;font-size:14px;cursor:pointer;\">برگر و ساندویچ</button><button class=\"cafeino-tab\" data-cat=\"dessert\" style=\"background:#05263A;color:#8b9aa5;border:1px solid rgba(99,186,198,0.1);padding:8px 16px;border-radius:50px;font-family:Vazirmatn;font-size:14px;cursor:pointer;\">دسر</button><button class=\"cafeino-tab\" data-cat=\"cake\" style=\"background:#05263A;color:#8b9aa5;border:1px solid rgba(99,186,198,0.1);padding:8px 16px;border-radius:50px;font-family:Vazirmatn;font-size:14px;cursor:pointer;\">کیک</button><button class=\"cafeino-tab\" data-cat=\"special\" style=\"background:#05263A;color:#8b9aa5;border:1px solid rgba(99,186,198,0.1);padding:8px 16px;border-radius:50px;font-family:Vazirmatn;font-size:14px;cursor:pointer;\">نوشیدنی‌های ویژه</button></div>"
+      },
+      "elements": []
+    },
+    {
+      "id": "00000390",
+      "elType": "container",
+      "settings": {
+        "flex_direction": "row",
+        "flex_gap": {
+          "row": "16",
+          "column": "16",
+          "unit": "px"
+        },
+        "flex_wrap": "wrap"
+      },
+      "elements": [
+        {
+          "id": "00000206",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "0",
+              "isLinked": false,
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "flex_direction": "column",
+            "content_width": "32%"
+          },
+          "elements": [
+            {
+              "id": "00000200",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefda?w=600&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "اسپرسو",
+                "width": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "200"
+                },
+                "object_fit": "cover",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000205",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "16",
+                  "isLinked": false,
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000203",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000201",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "اسپرسو",
+                        "header_size": "h3",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000202",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "۵۵٬۰۰۰ تومان",
+                        "header_size": "div",
+                        "align": "left",
+                        "title_color": "#63bac6",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "700"
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "00000204",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>شات‌های غلیظ و خالص از دانه‌های انتخابی</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000214",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "0",
+              "isLinked": false,
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "flex_direction": "column",
+            "content_width": "32%"
+          },
+          "elements": [
+            {
+              "id": "00000207",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=600&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "کاپوچینو",
+                "width": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "200"
+                },
+                "object_fit": "cover",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000213",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "16",
+                  "isLinked": false,
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000210",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000208",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "کاپوچینو",
+                        "header_size": "h3",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000209",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "۷۵٬۰۰۰ تومان",
+                        "header_size": "div",
+                        "align": "left",
+                        "title_color": "#63bac6",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "700"
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "00000211",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>اسپرسو با شیر بخارپز و فوم مخملی</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000212",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "پیشنهادی",
+                    "header_size": "div",
+                    "align": "right",
+                    "title_color": "#63bac6",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "10"
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000221",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "0",
+              "isLinked": false,
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "flex_direction": "column",
+            "content_width": "32%"
+          },
+          "elements": [
+            {
+              "id": "00000215",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1561882468-9110e03e0f78?w=600&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "لاته",
+                "width": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "200"
+                },
+                "object_fit": "cover",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000220",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "16",
+                  "isLinked": false,
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000218",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000216",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "لاته",
+                        "header_size": "h3",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000217",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "۸۰٬۰۰۰ تومان",
+                        "header_size": "div",
+                        "align": "left",
+                        "title_color": "#63bac6",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "700"
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "00000219",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>شیر بخارپز با اسپرسو و لاته آرت</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000228",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "0",
+              "isLinked": false,
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "flex_direction": "column",
+            "content_width": "32%"
+          },
+          "elements": [
+            {
+              "id": "00000222",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1553909489-cd47e0907980?w=600&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "موکا",
+                "width": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "200"
+                },
+                "object_fit": "cover",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000227",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "16",
+                  "isLinked": false,
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000225",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000223",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "موکا",
+                        "header_size": "h3",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000224",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "۹۵٬۰۰۰ تومان",
+                        "header_size": "div",
+                        "align": "left",
+                        "title_color": "#63bac6",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "700"
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "00000226",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>ترکیب اسپرسو، شکلات و شیر بخارپز</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000236",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "0",
+              "isLinked": false,
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "flex_direction": "column",
+            "content_width": "32%"
+          },
+          "elements": [
+            {
+              "id": "00000229",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1461026861981-344fae5e7af0?w=600&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "آیس لاته",
+                "width": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "200"
+                },
+                "object_fit": "cover",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000235",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "16",
+                  "isLinked": false,
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000232",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000230",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "آیس لاته",
+                        "header_size": "h3",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000231",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "۸۵٬۰۰۰ تومان",
+                        "header_size": "div",
+                        "align": "left",
+                        "title_color": "#63bac6",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "700"
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "00000233",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>اسپرسو سرد با شیر و یخ</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000234",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "پیشنهادی",
+                    "header_size": "div",
+                    "align": "right",
+                    "title_color": "#63bac6",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "10"
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000243",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "0",
+              "isLinked": false,
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "flex_direction": "column",
+            "content_width": "32%"
+          },
+          "elements": [
+            {
+              "id": "00000237",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=600&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "آیس آمریکانو",
+                "width": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "200"
+                },
+                "object_fit": "cover",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000242",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "16",
+                  "isLinked": false,
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000240",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000238",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "آیس آمریکانو",
+                        "header_size": "h3",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000239",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "۷۰٬۰۰۰ تومان",
+                        "header_size": "div",
+                        "align": "left",
+                        "title_color": "#63bac6",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "700"
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "00000241",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>اسپرسو سرد با آب و یخ</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000250",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "0",
+              "isLinked": false,
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "flex_direction": "column",
+            "content_width": "32%"
+          },
+          "elements": [
+            {
+              "id": "00000244",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1572490122747-39d8e00586d0?w=600&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "شیک نوتلا",
+                "width": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "200"
+                },
+                "object_fit": "cover",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000249",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "16",
+                  "isLinked": false,
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000247",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000245",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "شیک نوتلا",
+                        "header_size": "h3",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000246",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "۱۱۰٬۰۰۰ تومان",
+                        "header_size": "div",
+                        "align": "left",
+                        "title_color": "#63bac6",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "700"
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "00000248",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>شیک خامه‌ای نوتلا با بستنی وانیلی</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000257",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "0",
+              "isLinked": false,
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "flex_direction": "column",
+            "content_width": "32%"
+          },
+          "elements": [
+            {
+              "id": "00000251",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1597318181409-cf64d0b5d8a2?w=600&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "چای سیاه سنتی",
+                "width": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "200"
+                },
+                "object_fit": "cover",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000256",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "16",
+                  "isLinked": false,
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000254",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000252",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "چای سیاه سنتی",
+                        "header_size": "h3",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000253",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "۴۰٬۰۰۰ تومان",
+                        "header_size": "div",
+                        "align": "left",
+                        "title_color": "#63bac6",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "700"
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "00000255",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>چای ممتاز لاهیجان با عرقیات</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000264",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "0",
+              "isLinked": false,
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "flex_direction": "column",
+            "content_width": "32%"
+          },
+          "elements": [
+            {
+              "id": "00000258",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?w=600&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "دمنوش بهارنارنج",
+                "width": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "200"
+                },
+                "object_fit": "cover",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000263",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "16",
+                  "isLinked": false,
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000261",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000259",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "دمنوش بهارنارنج",
+                        "header_size": "h3",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000260",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "۵۰٬۰۰۰ تومان",
+                        "header_size": "div",
+                        "align": "left",
+                        "title_color": "#63bac6",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "700"
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "00000262",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>دمنوش آرام‌بخش بهارنارنج و بابونه</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000272",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "0",
+              "isLinked": false,
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "flex_direction": "column",
+            "content_width": "32%"
+          },
+          "elements": [
+            {
+              "id": "00000265",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=600&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "صبحانه کافئینو",
+                "width": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "200"
+                },
+                "object_fit": "cover",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000271",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "16",
+                  "isLinked": false,
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000268",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000266",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "صبحانه کافئینو",
+                        "header_size": "h3",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000267",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "۱۸۰٬۰۰۰ تومان",
+                        "header_size": "div",
+                        "align": "left",
+                        "title_color": "#63bac6",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "700"
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "00000269",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>تخم مرغ، پنیر، گردو، عسل و کره</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000270",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "پیشنهادی",
+                    "header_size": "div",
+                    "align": "right",
+                    "title_color": "#63bac6",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "10"
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000279",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "0",
+              "isLinked": false,
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "flex_direction": "column",
+            "content_width": "32%"
+          },
+          "elements": [
+            {
+              "id": "00000273",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1525351484163-7510ef9f71ec?w=600&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "املت اسپانیایی",
+                "width": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "200"
+                },
+                "object_fit": "cover",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000278",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "16",
+                  "isLinked": false,
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000276",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000274",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "املت اسپانیایی",
+                        "header_size": "h3",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000275",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "۱۵۰٬۰۰۰ تومان",
+                        "header_size": "div",
+                        "align": "left",
+                        "title_color": "#63bac6",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "700"
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "00000277",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>املت با فلفل دلمه، گوجه و سیب‌زمینی</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000286",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "0",
+              "isLinked": false,
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "flex_direction": "column",
+            "content_width": "32%"
+          },
+          "elements": [
+            {
+              "id": "00000280",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1546793665-c74683f339c1?w=600&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "سالاد سزار",
+                "width": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "200"
+                },
+                "object_fit": "cover",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000285",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "16",
+                  "isLinked": false,
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000283",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000281",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "سالاد سزار",
+                        "header_size": "h3",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000282",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "۱۲۰٬۰۰۰ تومان",
+                        "header_size": "div",
+                        "align": "left",
+                        "title_color": "#63bac6",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "700"
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "00000284",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>کاهو، مرط گریل، پارمسان و سس سزار</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000293",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "0",
+              "isLinked": false,
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "flex_direction": "column",
+            "content_width": "32%"
+          },
+          "elements": [
+            {
+              "id": "00000287",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1547592180-85f173990554?w=600&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "سوپ قارچ",
+                "width": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "200"
+                },
+                "object_fit": "cover",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000292",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "16",
+                  "isLinked": false,
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000290",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000288",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "سوپ قارچ",
+                        "header_size": "h3",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000289",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "۹۵٬۰۰۰ تومان",
+                        "header_size": "div",
+                        "align": "left",
+                        "title_color": "#63bac6",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "700"
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "00000291",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>سوپ خامه‌ای قارچ تازه با کرامبل</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000301",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "0",
+              "isLinked": false,
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "flex_direction": "column",
+            "content_width": "32%"
+          },
+          "elements": [
+            {
+              "id": "00000294",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "جوجه کباب زعفرانی",
+                "width": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "200"
+                },
+                "object_fit": "cover",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000300",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "16",
+                  "isLinked": false,
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000297",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000295",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "جوجه کباب زعفرانی",
+                        "header_size": "h3",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000296",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "۳۲۰٬۰۰۰ تومان",
+                        "header_size": "div",
+                        "align": "left",
+                        "title_color": "#63bac6",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "700"
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "00000298",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>سینه مرغ گریل با زعفران و برنج زعفرانی</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000299",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "پیشنهادی",
+                    "header_size": "div",
+                    "align": "right",
+                    "title_color": "#63bac6",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "10"
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000308",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "0",
+              "isLinked": false,
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "flex_direction": "column",
+            "content_width": "32%"
+          },
+          "elements": [
+            {
+              "id": "00000302",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1529193591184-b1d78079ec3a?w=600&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "کباب کوبیده",
+                "width": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "200"
+                },
+                "object_fit": "cover",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000307",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "16",
+                  "isLinked": false,
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000305",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000303",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "کباب کوبیده",
+                        "header_size": "h3",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000304",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "۲۸۰٬۰۰۰ تومان",
+                        "header_size": "div",
+                        "align": "left",
+                        "title_color": "#63bac6",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "700"
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "00000306",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>دو سیخ کوبیده گوسفندی با برنج و گوجه گریل</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000316",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "0",
+              "isLinked": false,
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "flex_direction": "column",
+            "content_width": "32%"
+          },
+          "elements": [
+            {
+              "id": "00000309",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=600&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "پاستا آلفردو",
+                "width": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "200"
+                },
+                "object_fit": "cover",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000315",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "16",
+                  "isLinked": false,
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000312",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000310",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "پاستا آلفردو",
+                        "header_size": "h3",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000311",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "۲۴۰٬۰۰۰ تومان",
+                        "header_size": "div",
+                        "align": "left",
+                        "title_color": "#63bac6",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "700"
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "00000313",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>پاستا با سس خامه‌ای، سینه مرغ و قارچ</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000314",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "پیشنهادی",
+                    "header_size": "div",
+                    "align": "right",
+                    "title_color": "#63bac6",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "10"
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000323",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "0",
+              "isLinked": false,
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "flex_direction": "column",
+            "content_width": "32%"
+          },
+          "elements": [
+            {
+              "id": "00000317",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1481931098730-318b6f776db0?w=600&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "پاستا پستو",
+                "width": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "200"
+                },
+                "object_fit": "cover",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000322",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "16",
+                  "isLinked": false,
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000320",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000318",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "پاستا پستو",
+                        "header_size": "h3",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000319",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "۲۳۰٬۰۰۰ تومان",
+                        "header_size": "div",
+                        "align": "left",
+                        "title_color": "#63bac6",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "700"
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "00000321",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>پاستا با سس پستو، گوجه گیلاسی و پارمسان</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000331",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "0",
+              "isLinked": false,
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "flex_direction": "column",
+            "content_width": "32%"
+          },
+          "elements": [
+            {
+              "id": "00000324",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1568901346375-23c9450f58ae?w=600&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "برگر کافئینو",
+                "width": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "200"
+                },
+                "object_fit": "cover",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000330",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "16",
+                  "isLinked": false,
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000327",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000325",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "برگر کافئینو",
+                        "header_size": "h3",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000326",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "۲۶۰٬۰۰۰ تومان",
+                        "header_size": "div",
+                        "align": "left",
+                        "title_color": "#63bac6",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "700"
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "00000328",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>گوشت گوساله، پنیر چدار، سس مخصوص و سیب‌زمینی</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000329",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "پیشنهادی",
+                    "header_size": "div",
+                    "align": "right",
+                    "title_color": "#63bac6",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "10"
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000338",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "0",
+              "isLinked": false,
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "flex_direction": "column",
+            "content_width": "32%"
+          },
+          "elements": [
+            {
+              "id": "00000332",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=600&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "کلاب ساندویچ",
+                "width": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "200"
+                },
+                "object_fit": "cover",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000337",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "16",
+                  "isLinked": false,
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000335",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000333",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "کلاب ساندویچ",
+                        "header_size": "h3",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000334",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "۱۹۰٬۰۰۰ تومان",
+                        "header_size": "div",
+                        "align": "left",
+                        "title_color": "#63bac6",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "700"
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "00000336",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>مرغ، بکن، کاهو و سس مخصوص</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000346",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "0",
+              "isLinked": false,
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "flex_direction": "column",
+            "content_width": "32%"
+          },
+          "elements": [
+            {
+              "id": "00000339",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "تیرامیسو",
+                "width": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "200"
+                },
+                "object_fit": "cover",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000345",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "16",
+                  "isLinked": false,
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000342",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000340",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "تیرامیسو",
+                        "header_size": "h3",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000341",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "۱۲۰٬۰۰۰ تومان",
+                        "header_size": "div",
+                        "align": "left",
+                        "title_color": "#63bac6",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "700"
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "00000343",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>لایه‌های کیک قهوه با ماسکارپونه</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000344",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "پیشنهادی",
+                    "header_size": "div",
+                    "align": "right",
+                    "title_color": "#63bac6",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "10"
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000353",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "0",
+              "isLinked": false,
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "flex_direction": "column",
+            "content_width": "32%"
+          },
+          "elements": [
+            {
+              "id": "00000347",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "چیزکیک نیویورکی",
+                "width": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "200"
+                },
+                "object_fit": "cover",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000352",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "16",
+                  "isLinked": false,
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000350",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000348",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "چیزکیک نیویورکی",
+                        "header_size": "h3",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000349",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "۱۳۰٬۰۰۰ تومان",
+                        "header_size": "div",
+                        "align": "left",
+                        "title_color": "#63bac6",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "700"
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "00000351",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>چیزکیک خامه‌ای با سس توت‌فرنگی</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000360",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "0",
+              "isLinked": false,
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "flex_direction": "column",
+            "content_width": "32%"
+          },
+          "elements": [
+            {
+              "id": "00000354",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "کیک شکلاتی",
+                "width": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "200"
+                },
+                "object_fit": "cover",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000359",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "16",
+                  "isLinked": false,
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000357",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000355",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "کیک شکلاتی",
+                        "header_size": "h3",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000356",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "۹۰٬۰۰۰ تومان",
+                        "header_size": "div",
+                        "align": "left",
+                        "title_color": "#63bac6",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "700"
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "00000358",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>کیک سه لایه شکلاتی با گاناش</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000367",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "0",
+              "isLinked": false,
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "flex_direction": "column",
+            "content_width": "32%"
+          },
+          "elements": [
+            {
+              "id": "00000361",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1599785209707-a456fcf9a2f4?w=600&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "کیک هویج",
+                "width": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "200"
+                },
+                "object_fit": "cover",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000366",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "16",
+                  "isLinked": false,
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000364",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000362",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "کیک هویج",
+                        "header_size": "h3",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000363",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "۸۵٬۰۰۰ تومان",
+                        "header_size": "div",
+                        "align": "left",
+                        "title_color": "#63bac6",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "700"
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "00000365",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>کیک هویج تازه با کرم پنیر</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000375",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "0",
+              "isLinked": false,
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "flex_direction": "column",
+            "content_width": "32%"
+          },
+          "elements": [
+            {
+              "id": "00000368",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1515823893255-9c5e8b1d7d4e?w=600&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "ماچا لاته",
+                "width": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "200"
+                },
+                "object_fit": "cover",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000374",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "16",
+                  "isLinked": false,
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000371",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000369",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "ماچا لاته",
+                        "header_size": "h3",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000370",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "۱۲۰٬۰۰۰ تومان",
+                        "header_size": "div",
+                        "align": "left",
+                        "title_color": "#63bac6",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "700"
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "00000372",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>ماچای ژاپنی با شیر بخارپز و عسل</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00000373",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "پیشنهادی",
+                    "header_size": "div",
+                    "align": "right",
+                    "title_color": "#63bac6",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "10"
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "00000382",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#05263A",
+            "border_border": "solid",
+            "border_color": "rgba(99,186,198,0.1)",
+            "border_width": {
+              "unit": "px",
+              "size": "1",
+              "isLinked": false,
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "size": "0",
+              "isLinked": false,
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            "flex_direction": "column",
+            "content_width": "32%"
+          },
+          "elements": [
+            {
+              "id": "00000376",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=600&q=80",
+                  "id": ""
+                },
+                "image_size": "full",
+                "title_text": "طلایی کافئینو",
+                "width": {
+                  "unit": "%",
+                  "size": "100"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": "200"
+                },
+                "object_fit": "cover",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "00000381",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "row": "0",
+                  "column": "8",
+                  "unit": "px"
+                },
+                "padding": {
+                  "unit": "px",
+                  "size": "16",
+                  "isLinked": false,
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16"
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000379",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "flex-start"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000377",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "طلایی کافئینو",
+                        "header_size": "h3",
+                        "align": "right",
+                        "title_color": "#ffffff",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "00000378",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "۱۱۰٬۰۰۰ تومان",
+                        "header_size": "div",
+                        "align": "left",
+                        "title_color": "#63bac6",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": "14"
+                        },
+                        "typography_font_weight": "700"
+                      },
+                      "elements": []
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "00000380",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>شیر طلایی با زردچوبه، عسل و دارچین</p>",
+                    "text_color": "#8b9aa5",
+                    "align": "right",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": "12"
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": "1.8"
+                    }
+                  },
+                  "elements": []
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "page_settings": {
+    "content_width": "full",
+    "hide_title": "yes"
+  },
+  "version": "0.4",
+  "title": "کافئینو - منو",
+  "type": "page"
+}
