@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520">
+  <defs>
+    <linearGradient id="s2bg" x1=".1" y1="0" x2=".7" y2="1">
+      <stop offset="0" stop-color="#F9FDFF"/><stop offset=".55" stop-color="#EAF4FB"/><stop offset="1" stop-color="#D9EAF5"/>
+    </linearGradient>
+    <radialGradient id="s2glow" cx=".5" cy=".45" r=".58">
+      <stop offset="0" stop-color="#A2CEE0" stop-opacity=".5"/><stop offset="1" stop-color="#7FB6CE" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#s2bg)"/>
+  <g stroke="#7FB6CE" stroke-opacity=".15" stroke-width="1" fill="none">
+    <path d="M0 130h800M0 260h800M0 390h800M200 0v520M400 0v520M600 0v520"/>
+  </g>
+  <ellipse cx="400" cy="250" rx="320" ry="270" fill="url(#s2glow)"/>
+  <g fill="none" stroke="#3B82A0" stroke-opacity=".5" stroke-width="1.8">
+    <path d="M400 40 V480" stroke-dasharray="9 10"/>
+    <path d="M324 56 H476M324 476 H476"/>
+  </g>
+  <g fill="none" stroke="#3B82A0" stroke-opacity=".16" stroke-width="2">
+    <path d="M370 96 Q 250 120 246 172"/><path d="M430 96 Q 550 120 554 172"/>
+    <path d="M382 136 Q 276 162 272 208"/><path d="M418 136 Q 524 162 528 208"/>
+    <path d="M392 176 Q 300 200 298 242"/><path d="M408 176 Q 500 200 502 242"/>
+  </g>
+  <path d="M400 52 C356 128 448 204 402 280 C358 352 448 400 414 472" fill="none" stroke="#143354" stroke-width="15" stroke-linecap="round"/>
+  <g fill="#FFFFFF" stroke="#3B82A0" stroke-width="3">
+    <circle cx="400" cy="60" r="8"/><circle cx="378" cy="94" r="8"/><circle cx="366" cy="128" r="8"/><circle cx="374" cy="162" r="8"/>
+    <circle cx="398" cy="196" r="8"/><circle cx="418" cy="230" r="8"/><circle cx="416" cy="264" r="8"/><circle cx="396" cy="298" r="8"/>
+    <circle cx="380" cy="332" r="8"/><circle cx="386" cy="366" r="8"/><circle cx="408" cy="400" r="8"/><circle cx="414" cy="436" r="8"/>
+  </g>
+  <g fill="none" stroke="#2A6178" stroke-width="3.2" stroke-linecap="round">
+    <path d="M496 214 C468 240 450 266 442 292"/><path d="M436 276 L442 294 L460 288"/>
+    <path d="M306 214 C334 240 352 266 360 292"/><path d="M364 276 L358 294 L340 288"/>
+  </g>
+  <circle cx="400" cy="264" r="118" fill="none" stroke="#3B82A0" stroke-opacity=".14" stroke-width="1.6" stroke-dasharray="6 10"/>
+</svg>

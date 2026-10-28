@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 520" width="1800" height="520">
+  <defs>
+    <linearGradient id="cbg" x1="0" y1="0" x2="1" y2=".6">
+      <stop offset="0" stop-color="#0B2340"/><stop offset=".45" stop-color="#16455F"/><stop offset="1" stop-color="#0A1D31"/>
+    </linearGradient>
+    <radialGradient id="cglow" cx=".24" cy=".5" r=".42">
+      <stop offset="0" stop-color="#5EA2BD" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#3B82A0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cvfig" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#DCEDF7"/><stop offset="1" stop-color="#8FC6DE"/>
+    </linearGradient>
+    <linearGradient id="cright" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0A1D31" stop-opacity="0"/><stop offset="1" stop-color="#0A1D31" stop-opacity=".62"/>
+    </linearGradient>
+    <linearGradient id="cstreak" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset=".5" stop-color="#CFE8F5" stop-opacity=".22"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <g id="c-torso"><path d="M652 240 C638 288 616 336 592 384"/></g>
+    <g id="c-arms">
+      <path d="M644 256 C688 280 716 308 730 340"/>
+      <path d="M640 260 C604 294 578 324 564 358"/>
+      <path d="M662 214 V244"/>
+    </g>
+    <g id="c-legs">
+      <path d="M592 384 C622 404 648 414 670 428"/>
+      <path d="M670 428 C666 468 646 500 626 522"/>
+      <path d="M592 384 C560 428 540 462 526 496"/>
+      <path d="M526 496 C546 556 572 604 596 644"/>
+    </g>
+  </defs>
+  <rect width="1800" height="520" fill="url(#cbg)"/>
+  <g stroke="#CFE8F5" stroke-opacity=".06" stroke-width="1" fill="none">
+    <path d="M0 130h1800M0 260h1800M0 390h1800"/>
+    <path d="M150 0v520M450 0v520M750 0v520M1050 0v520M1350 0v520M1650 0v520"/>
+  </g>
+  <ellipse cx="440" cy="270" rx="520" ry="300" fill="url(#cglow)"/>
+  <g opacity=".6">
+    <rect x="80" y="176" width="1200" height="5" rx="2.5" fill="url(#cstreak)"/>
+    <rect x="360" y="392" width="1000" height="4" rx="2" fill="url(#cstreak)"/>
+  </g>
+  <g transform="translate(-150 -10) scale(1.02)" opacity=".22">
+    <use href="#c-torso" fill="none" stroke="url(#cvfig)" stroke-width="48" stroke-linecap="round" stroke-linejoin="round"/>
+    <use href="#c-legs" fill="none" stroke="url(#cvfig)" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+    <use href="#c-arms" fill="none" stroke="url(#cvfig)" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="668" cy="196" r="33" fill="url(#cvfig)"/>
+  </g>
+  <g fill="none" stroke="#7FC0DA" stroke-opacity=".22" stroke-width="2" stroke-dasharray="10 12">
+    <path d="M120 520C160 400 300 320 520 290"/>
+  </g>
+  <rect x="900" width="900" height="520" fill="url(#cright)"/>
+</svg>

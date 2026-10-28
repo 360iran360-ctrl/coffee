@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800" width="1400" height="800">
+  <defs>
+    <linearGradient id="vbg" x1="0" y1="0" x2=".8" y2="1">
+      <stop offset="0" stop-color="#0A1D31"/><stop offset=".55" stop-color="#12314E"/><stop offset="1" stop-color="#0B2138"/>
+    </linearGradient>
+    <radialGradient id="vglow" cx=".45" cy=".44" r=".5">
+      <stop offset="0" stop-color="#5EA2BD" stop-opacity=".55"/>
+      <stop offset=".6" stop-color="#3B82A0" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#3B82A0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="vfig" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F2FAFE"/><stop offset=".6" stop-color="#DCEDF7"/><stop offset="1" stop-color="#B9D8E9"/>
+    </linearGradient>
+    <linearGradient id="vrim" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7FC0DA"/><stop offset="1" stop-color="#3B82A0"/>
+    </linearGradient>
+    <linearGradient id="vstreak" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#CFE8F5" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="vvig" cx=".45" cy=".45" r=".75">
+      <stop offset=".5" stop-color="#050F1C" stop-opacity="0"/><stop offset="1" stop-color="#050F1C" stop-opacity=".55"/>
+    </radialGradient>
+    <g id="run-torso"><path d="M652 240 C638 288 616 336 592 384"/></g>
+    <g id="run-arms">
+      <path d="M644 256 C688 280 716 308 730 340"/>
+      <path d="M640 260 C604 294 578 324 564 358"/>
+      <path d="M662 214 V244"/>
+    </g>
+    <g id="run-legs">
+      <path d="M592 384 C622 404 648 414 670 428"/>
+      <path d="M670 428 C666 468 646 500 626 522"/>
+      <path d="M592 384 C560 428 540 462 526 496"/>
+      <path d="M526 496 C546 556 572 604 596 644"/>
+    </g>
+    <g id="run-feet">
+      <path d="M624 524 C640 518 656 522 668 530"/>
+      <path d="M596 646 C612 646 628 652 638 660"/>
+    </g>
+  </defs>
+
+  <rect width="1400" height="800" fill="url(#vbg)"/>
+  <g stroke="#CFE8F5" stroke-opacity=".07" stroke-width="1" fill="none">
+    <path d="M0 160h1400M0 320h1400M0 480h1400M0 640h1400"/>
+    <path d="M200 0v800M400 0v800M600 0v800M800 0v800M1000 0v800M1200 0v800"/>
+  </g>
+  <ellipse cx="620" cy="380" rx="520" ry="420" fill="url(#vglow)"/>
+  <g opacity=".7">
+    <rect x="120" y="268" width="1150" height="6" rx="3" fill="url(#vstreak)"/>
+    <rect x="300" y="352" width="900" height="4" rx="2" fill="url(#vstreak)"/>
+    <rect x="60" y="470" width="1260" height="7" rx="3.5" fill="url(#vstreak)"/>
+    <rect x="420" y="562" width="820" height="4" rx="2" fill="url(#vstreak)"/>
+  </g>
+  <g fill="none" stroke="#7FC0DA" stroke-opacity=".3" stroke-width="2" stroke-dasharray="10 12">
+    <path d="M180 700C220 520 340 400 560 340"/>
+    <path d="M240 740C300 580 420 470 640 420"/>
+  </g>
+
+  <g>
+    <use href="#run-torso" x="-9" y="-7" fill="none" stroke="url(#vrim)" stroke-width="60" stroke-linecap="round" stroke-linejoin="round" opacity=".55"/>
+    <use href="#run-legs" x="-9" y="-7" fill="none" stroke="url(#vrim)" stroke-width="42" stroke-linecap="round" stroke-linejoin="round" opacity=".55"/>
+    <use href="#run-arms" x="-9" y="-7" fill="none" stroke="url(#vrim)" stroke-width="38" stroke-linecap="round" stroke-linejoin="round" opacity=".55"/>
+    <use href="#run-feet" x="-9" y="-7" fill="none" stroke="url(#vrim)" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" opacity=".55"/>
+    <use href="#run-torso" fill="none" stroke="url(#vfig)" stroke-width="48" stroke-linecap="round" stroke-linejoin="round"/>
+    <use href="#run-legs" fill="none" stroke="url(#vfig)" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+    <use href="#run-arms" fill="none" stroke="url(#vfig)" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+    <use href="#run-feet" fill="none" stroke="url(#vfig)" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="668" cy="196" r="33" fill="url(#vfig)"/>
+    <g fill="#E8F2F9" stroke="#3B82A0" stroke-width="2.6">
+      <circle cx="652" cy="252" r="7"/><circle cx="592" cy="384" r="7"/>
+      <circle cx="670" cy="428" r="7"/><circle cx="526" cy="496" r="7"/>
+    </g>
+  </g>
+
+  <path d="M100 690 H1300" fill="none" stroke="#CFE8F5" stroke-opacity=".16" stroke-width="2"/>
+  <ellipse cx="600" cy="700" rx="300" ry="26" fill="#050F1C" opacity=".45"/>
+  <rect width="1400" height="800" fill="url(#vvig)"/>
+</svg>

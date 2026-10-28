@@ -1,0 +1,118 @@
+/* ==========================================================================
+   animations.css — ورود نرم بخش‌ها، عمق سه‌بعدی و احترام به کاهش حرکت
+   (همه افکت‌ها با CSS و transform اجرا می‌شوند؛ بدون کتابخانه بیرونی)
+   ========================================================================== */
+
+/* ---------- ورود بخش‌ها در دید ---------- */
+.reveal {
+  opacity: 0;
+  transform: translate3d(0, 24px, 0);
+  transition: opacity .8s var(--ease), transform .8s var(--ease);
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+.no-js .reveal {
+  opacity: 1;
+  transform: none;
+}
+
+/* تأخیر پله‌ای برای کارت‌های شبکه */
+.grid-cards .reveal:nth-child(2) { transition-delay: .09s; }
+.grid-cards .reveal:nth-child(3) { transition-delay: .18s; }
+.grid-cards .reveal:nth-child(4) { transition-delay: .27s; }
+.article-list .reveal:nth-child(2) { transition-delay: .1s; }
+.article-list .reveal:nth-child(3) { transition-delay: .2s; }
+.method-list .reveal:nth-child(2) { transition-delay: .1s; }
+.method-list .reveal:nth-child(3) { transition-delay: .2s; }
+.method-list .reveal:nth-child(4) { transition-delay: .3s; }
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translate3d(0, 26px, 0); }
+  to   { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+@keyframes float-soft {
+  0%, 100% { transform: translate3d(0, 0, 0); }
+  50%      { transform: translate3d(0, -14px, 0); }
+}
+@keyframes glow-breathe {
+  0%, 100% { opacity: .80; }
+  50%      { opacity: 1; }
+}
+
+.hero-ring { animation: float-soft 13s ease-in-out infinite; }
+.hero-glow { animation: glow-breathe 9s ease-in-out infinite; }
+
+/* ---------- عمق سه‌بعدی: پارالاکس با متغیرهای CSS ---------- */
+[data-parallax] {
+  transform: translate3d(var(--px, 0px), var(--py, 0px), 0);
+  transition: transform .45s cubic-bezier(.22, .61, .36, 1);
+  will-change: transform;
+}
+
+/* ---------- کارت‌های چرخان (Tilt) ---------- */
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .tilt {
+    transform-style: preserve-3d;
+    transform:
+      perspective(1100px)
+      rotateX(var(--rx, 0deg))
+      rotateY(var(--ry, 0deg))
+      translate3d(0, var(--ty, 0px), var(--tz, 0px));
+    transition: transform .55s var(--ease), box-shadow .55s var(--ease), border-color .55s var(--ease);
+  }
+  .tilt:hover {
+    --ty: -8px;
+    --tz: 18px;
+    box-shadow: var(--shadow-lg);
+  }
+  /* بازتاب نور روی سطح کارت */
+  .tilt::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+    border-radius: inherit;
+    pointer-events: none;
+    opacity: 0;
+    background: radial-gradient(
+      280px circle at var(--mx, 50%) var(--my, 50%),
+      rgba(255, 255, 255, .55),
+      rgba(255, 255, 255, 0) 62%
+    );
+    mix-blend-mode: soft-light;
+    transition: opacity .45s var(--ease);
+  }
+  .tilt:hover::after { opacity: 1; }
+
+  /* عمق سه‌بعدی روی محتوای کارت */
+  .card-body,
+  .video-overlay { transform: translateZ(26px); }
+}
+
+/* ---------- نشان برند ---------- */
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .brand-mark { transform-style: preserve-3d; }
+  .brand:hover .brand-mark {
+    transform: rotateY(var(--ry, -10deg)) rotateX(6deg) translateZ(8px);
+  }
+  .brand-mark img {
+    transform: translateZ(0);
+    box-shadow: 0 12px 22px -14px rgba(16, 43, 70, .9);
+  }
+}
+
+/* ---------- کاهش حرکت ---------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+  }
+  html { scroll-behavior: auto; }
+  .reveal { opacity: 1 !important; transform: none !important; }
+  [data-parallax] { transform: none !important; }
+}

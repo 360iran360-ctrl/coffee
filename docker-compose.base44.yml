@@ -1,0 +1,45 @@
+# محیط توسعه Base44 برای وب‌سایت مهدی پارسا
+# سایت کاملاً ایستاست (HTML/CSS/JS بدون فریم‌ورک و بدون مرحله ساخت)، بنابراین
+# تنها یک سرویس لازم است که همان فایل‌های مخزن را از دیسک سرو می‌کند؛ هر ویرایشی
+# در فایل‌ها بی‌درنگ در مرورگر دیده می‌شود و نیازی به build یا نصب وابستگی نیست.
+services:
+  web:
+    # تصویر پایه و سرو مستقیم سورس (بدون تصویر از پیش ساخته‌شده پروژه)
+    image: python:3.12-slim
+    labels:
+      base44.project: "وب‌سایت مهدی پارسا"
+      base44.kind: "web"
+      base44.port: "3000"
+    working_dir: /app
+    # وب‌سرور استاندارد پایتون؛ نوع MIME فایل‌های webp/woff2/svg صریحاً ثبت می‌شود
+    # تا فونت و تصاویر با هدر درست سرو شوند.
+    command:
+      - python3
+      - -c
+      - |
+        import functools, http.server, mimetypes, socketserver
+        mimetypes.add_type('font/woff2', '.woff2')
+        mimetypes.add_type('image/webp', '.webp')
+        mimetypes.add_type('image/svg+xml', '.svg')
+        handler = functools.partial(http.server.SimpleHTTPRequestHandler, directory='/app')
+        socketserver.TCPServer.allow_reuse_address = True
+        socketserver.TCPServer(('0.0.0.0', 3000), handler).serve_forever()
+    environment:
+      # سایت به هیچ تنظیم مخصوص سندباکس نیاز ندارد؛ فقط برای هم‌راستایی با محیط
+      # توسعه در صورت نیاز به کد شرطی، پرچم پلتفرم عبور داده می‌شود.
+      - BASE44_PREVIEW_MODE
+    volumes:
+      - ./:/app:ro
+    ports:
+      - "3000:3000"
+    restart: on-failure
+    healthcheck:
+      test:
+        - CMD
+        - python3
+        - -c
+        - "import urllib.request, sys; sys.exit(0 if urllib.request.urlopen('http://127.0.0.1:3000/index.html', timeout=4).status == 200 else 1)"
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 5s

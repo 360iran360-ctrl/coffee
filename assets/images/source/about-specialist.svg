@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 1080" width="880" height="1080">
+  <defs>
+    <linearGradient id="abg" x1=".2" y1="0" x2=".7" y2="1">
+      <stop offset="0" stop-color="#FCFEFF"/>
+      <stop offset=".55" stop-color="#EDF6FC"/>
+      <stop offset="1" stop-color="#DCEBF6"/>
+    </linearGradient>
+    <radialGradient id="aglow" cx=".5" cy=".34" r=".55">
+      <stop offset="0" stop-color="#A8D4E5" stop-opacity=".6"/>
+      <stop offset=".6" stop-color="#7FB6CE" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#7FB6CE" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="abody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1D456B"/>
+      <stop offset=".6" stop-color="#143354"/>
+      <stop offset="1" stop-color="#102B46"/>
+    </linearGradient>
+    <linearGradient id="arim" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C6E7F4"/>
+      <stop offset="1" stop-color="#8FC6DE"/>
+    </linearGradient>
+    <radialGradient id="avig" cx=".5" cy=".42" r=".8">
+      <stop offset=".5" stop-color="#0A1D31" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0A1D31" stop-opacity=".14"/>
+    </radialGradient>
+    <filter id="asoft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="22"/></filter>
+    <g id="a-thin">
+      <path d="M470 338 V386"/>
+      <path d="M390 404 C362 442 346 490 340 534 C336 572 334 600 332 630"/>
+      <path d="M552 404 C580 442 596 490 602 534 C606 572 608 600 610 630"/>
+    </g>
+    <g id="a-thick">
+      <path d="M428 646 C418 716 412 782 416 848 C419 892 424 930 428 966"/>
+      <path d="M512 646 C524 716 532 782 528 848 C525 892 520 930 516 966"/>
+    </g>
+    <path id="a-torso" d="M470 352 C520 352 556 368 570 396 C584 424 588 470 578 520 C572 556 556 596 552 636 L388 636 C384 596 368 556 362 520 C352 470 356 424 370 396 C384 368 420 352 470 352 Z"/>
+  </defs>
+
+  <rect width="880" height="1080" fill="url(#abg)"/>
+  <g stroke="#3B82A0" stroke-opacity=".12" stroke-width="1" fill="none">
+    <path d="M0 220h880M0 440h880M0 660h880M0 880h880"/>
+    <path d="M180 0v1080M420 0v1080M660 0v1080"/>
+  </g>
+  <ellipse cx="470" cy="360" rx="420" ry="400" fill="url(#aglow)"/>
+  <ellipse cx="210" cy="150" rx="260" ry="200" fill="#FFFFFF" opacity=".45" filter="url(#asoft)"/>
+  <circle cx="470" cy="330" r="220" fill="none" stroke="#3B82A0" stroke-opacity=".2" stroke-width="1.6" stroke-dasharray="8 10"/>
+
+  <g transform="translate(-188 -260) scale(1.4)">
+    <use href="#a-torso" x="-10" y="6" fill="url(#arim)" opacity=".85"/>
+    <use href="#a-thick" x="-10" y="6" fill="none" stroke="url(#arim)" stroke-width="54" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+    <use href="#a-thin" x="-10" y="6" fill="none" stroke="url(#arim)" stroke-width="44" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+    <use href="#a-torso" fill="url(#abody)"/>
+    <use href="#a-thick" fill="none" stroke="url(#abody)" stroke-width="46" stroke-linecap="round" stroke-linejoin="round"/>
+    <use href="#a-thin" fill="none" stroke="url(#abody)" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#E8F2F9" stroke="#3B82A0" stroke-width="2.4">
+      <circle cx="390" cy="404" r="7"/><circle cx="552" cy="404" r="7"/>
+      <circle cx="340" cy="534" r="6.5"/><circle cx="602" cy="534" r="6.5"/>
+    </g>
+  </g>
+
+  <g fill="none" stroke="#3B82A0" stroke-opacity=".3" stroke-width="2" stroke-dasharray="7 9">
+    <path d="M60 900C90 700 210 540 430 470"/>
+  </g>
+  <g fill="#3B82A0" fill-opacity=".35">
+    <circle cx="112" cy="250" r="5"/><circle cx="770" cy="640" r="6"/><circle cx="724" cy="196" r="4"/>
+  </g>
+  <rect width="880" height="1080" fill="url(#avig)"/>
+</svg>
