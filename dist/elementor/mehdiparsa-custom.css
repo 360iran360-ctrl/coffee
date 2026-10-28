@@ -1,0 +1,163 @@
+/* ==========================================================================
+   mehdiparsa-custom.css — افکت‌های سه‌بعدی، انیمیشن و RTL برای قالب Elementor
+   این فایل را در مسیر قالب فعال WordPress اضافه کنید:
+   Appearance → Theme File Editor → style.css (یا در Customizer → Additional CSS)
+   ========================================================================== */
+
+/* ---------- فونت محلی وزیرمتن (فایل‌ها را در Media Library آپلود کنید) ---------- */
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('/wp-content/uploads/fonts/vazirmatn-regular.woff2') format('woff2');
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('/wp-content/uploads/fonts/vazirmatn-medium.woff2') format('woff2');
+  font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('/wp-content/uploads/fonts/vazirmatn-semibold.woff2') format('woff2');
+  font-weight: 600; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('/wp-content/uploads/fonts/vazirmatn-bold.woff2') format('woff2');
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+
+/* ---------- اعمال فونت وزیرمتن روی کل صفحه ---------- */
+body, .elementor-widget-heading .elementor-heading-title,
+.elementor-widget-text-editor, .elementor-widget-button .elementor-button,
+.elementor-widget-icon-box .elementor-icon-box-title,
+.elementor-widget-icon-box .elementor-icon-box-description,
+.elementor-widget-icon-list .elementor-icon-list-item,
+.elementor-widget-nav-menu .elementor-item,
+.elementor-widget-social-icons .elementor-social-icon {
+  font-family: 'Vazirmatn', Tahoma, 'Segoe UI', system-ui, sans-serif !important;
+}
+
+/* ---------- پشتیبانی کامل RTL ---------- */
+html { direction: rtl; }
+.elementor-widget-heading .elementor-heading-title,
+.elementor-widget-text-editor .elementor-text-editor { text-align: start; }
+
+/* ---------- افکت ورود بخش‌ها (Scroll Reveal) ---------- */
+.elementor-section, .e-container {
+  opacity: 0;
+  transform: translate3d(0, 24px, 0);
+  transition: opacity .8s cubic-bezier(.23,1,.32,1), transform .8s cubic-bezier(.23,1,.32,1);
+}
+.elementor-section.is-visible, .e-container.is-visible {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+/* ---------- عمق سه‌بعدی: Tilt روی کارت‌ها ---------- */
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .service-card, .article-card, .video-panel {
+    transform-style: preserve-3d;
+    transition: transform .55s cubic-bezier(.23,1,.32,1),
+                box-shadow .55s cubic-bezier(.23,1,.32,1),
+                border-color .55s cubic-bezier(.23,1,.32,1);
+  }
+  .service-card:hover, .article-card:hover, .video-panel:hover {
+    transform: perspective(1100px) rotateX(4deg) rotateY(-4deg) translate3d(0, -8px, 18px);
+    box-shadow: 0 30px 70px rgba(16, 43, 70, .16);
+  }
+  /* بازتاب نور */
+  .service-card::after, .article-card::after, .video-panel::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+    border-radius: inherit;
+    pointer-events: none;
+    opacity: 0;
+    background: radial-gradient(280px circle at 50% 50%, rgba(255,255,255,.55), rgba(255,255,255,0) 62%);
+    mix-blend-mode: soft-light;
+    transition: opacity .45s ease;
+  }
+  .service-card:hover::after, .article-card:hover::after, .video-panel:hover::after {
+    opacity: 1;
+  }
+}
+
+/* ---------- انیمیشن شناور حلقه هیرو ---------- */
+@keyframes float-soft {
+  0%, 100% { transform: translate3d(0, 0, 0); }
+  50%      { transform: translate3d(0, -14px, 0); }
+}
+@keyframes glow-breathe {
+  0%, 100% { opacity: .80; }
+  50%      { opacity: 1; }
+}
+
+/* ---------- درخشش پشت عکس هیرو ---------- */
+.hero-visual::before {
+  content: '';
+  position: absolute;
+  inset-inline-end: 4%;
+  top: 4%;
+  width: 78%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 45%, rgba(59,130,160,.34) 0%, rgba(59,130,160,0) 65%);
+  animation: glow-breathe 9s ease-in-out infinite;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* ---------- حلقه نقطه‌چین هیرو ---------- */
+.hero-visual::after {
+  content: '';
+  position: absolute;
+  inset-inline-start: -6%;
+  bottom: 6%;
+  width: 220px;
+  aspect-ratio: 1;
+  border: 1.5px dashed rgba(59,130,160,.45);
+  border-radius: 50%;
+  animation: float-soft 13s ease-in-out infinite;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* ---------- درخشش پشت عکس درباره من ---------- */
+.about-visual::before {
+  content: '';
+  position: absolute;
+  inset-inline-end: 0;
+  top: 6%;
+  width: 70%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(59,130,160,.28) 0%, rgba(59,130,160,0) 68%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* ---------- شماره‌های بزرگ سایه‌دار در مراحل روش کار ---------- */
+.method-step { position: relative; overflow: hidden; }
+.method-step::before {
+  content: attr(data-step-num);
+  position: absolute;
+  inset-inline-start: 16px;
+  bottom: -14px;
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1;
+  color: transparent;
+  -webkit-text-stroke: 1.5px rgba(59,130,160,.28);
+  pointer-events: none;
+}
+
+/* ---------- احترام به کاهش حرکت ---------- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+  }
+  .elementor-section, .e-container { opacity: 1 !important; transform: none !important; }
+}

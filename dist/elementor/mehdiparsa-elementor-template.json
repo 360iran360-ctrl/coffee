@@ -1,0 +1,4079 @@
+{
+  "content": [
+    {
+      "id": "e000009",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "row",
+        "flex_justify_content": "space-between",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "isLinked": true
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFFEE",
+        "padding": {
+          "unit": "px",
+          "top": "16",
+          "right": "40",
+          "bottom": "16",
+          "left": "40",
+          "isLinked": false
+        },
+        "position": "sticky",
+        "position_offset_top": 0,
+        "_position_z_index": 100,
+        "css_id": "site-header"
+      },
+      "elements": [
+        {
+          "id": "e000005",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "size": 12,
+              "isLinked": true
+            },
+            "container_type": "flex"
+          },
+          "elements": [
+            {
+              "id": "e000001",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "{{IMAGE:logo}}"
+                },
+                "image_size": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 46,
+                  "isLinked": true
+                },
+                "height": {
+                  "unit": "px",
+                  "size": 46,
+                  "isLinked": true
+                },
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "14",
+                  "right": "14",
+                  "bottom": "14",
+                  "left": "14",
+                  "isLinked": true
+                }
+              },
+              "elements": [],
+              "isInner": false
+            },
+            {
+              "id": "e000004",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 2,
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "e000002",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "مهدی پارسا",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20,
+                      "isLinked": true
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_align": "start",
+                    "text_color": "#102B46"
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "e000003",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "متخصص فیزیولوژی و حرکات اصلاحی",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12,
+                      "isLinked": true
+                    },
+                    "typography_font_weight": "500",
+                    "typography_text_align": "start",
+                    "text_color": "#4E6E88"
+                  },
+                  "elements": [],
+                  "isInner": false
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        },
+        {
+          "id": "e000006",
+          "elType": "widget",
+          "widgetType": "nav-menu",
+          "settings": {
+            "menu_items": [
+              {
+                "text": "صفحه اصلی",
+                "url": "#home",
+                "is_active": true
+              },
+              {
+                "text": "درباره من",
+                "url": "#about"
+              },
+              {
+                "text": "خدمات",
+                "url": "#services"
+              },
+              {
+                "text": "مقالات",
+                "url": "#articles"
+              },
+              {
+                "text": "آموزش‌ها",
+                "url": "#videos"
+              },
+              {
+                "text": "تماس با من",
+                "url": "#contact"
+              }
+            ],
+            "color_menu_item": "#1B3D5F",
+            "color_menu_item_hover": "#2A6178",
+            "color_menu_item_active": "#102B46",
+            "pointer_color_menu_item_hover": "#2A6178",
+            "pointer_color_menu_item_active": "#2A6178",
+            "typography_typography": "custom",
+            "typography_font_family": "Vazirmatn",
+            "typography_font_size": {
+              "unit": "rem",
+              "size": 0.98
+            },
+            "typography_font_weight": "500",
+            "text_color": "#1B3D5F"
+          },
+          "elements": [],
+          "isInner": false
+        },
+        {
+          "id": "e000008",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "size": 12,
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "e000007",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "رزرو مشاوره",
+                "size": "sm",
+                "background_background": "classic",
+                "background_color": "#2A6178",
+                "button_text_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "999",
+                  "right": "999",
+                  "bottom": "999",
+                  "left": "999",
+                  "isLinked": true
+                },
+                "button_background_hover_color": "#1F4E62",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "rem",
+                  "size": 0.95
+                },
+                "typography_font_weight": "600",
+                "padding": {
+                  "unit": "px",
+                  "top": "11",
+                  "right": "22",
+                  "bottom": "11",
+                  "left": "22",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "isInner": false
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "e000020",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "row",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 48,
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": "64",
+          "right": "0",
+          "bottom": "88",
+          "left": "0",
+          "isLinked": false
+        },
+        "background_background": "gradient",
+        "background_color": "#FBFDFF",
+        "background_color_b": "#F6FBFE",
+        "background_gradient_angle": 180,
+        "css_id": "home"
+      },
+      "elements": [
+        {
+          "id": "e000017",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 0,
+              "isLinked": true
+            },
+            "container_type": "flex",
+            "flex_grow": "1"
+          },
+          "elements": [
+            {
+              "id": "e000010",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "مهدی پارسا | متخصص فیزیولوژی و حرکات اصلاحی",
+                "header_size": "p",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14,
+                  "isLinked": true
+                },
+                "typography_font_weight": "500",
+                "text_color": "#2A6178",
+                "background_background": "classic",
+                "background_color": "#E8F2F9BF",
+                "padding": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "16",
+                  "bottom": "8",
+                  "left": "16",
+                  "isLinked": false
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "999",
+                  "right": "999",
+                  "bottom": "999",
+                  "left": "999",
+                  "isLinked": true
+                },
+                "text_align": "start",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "isInner": false
+            },
+            {
+              "id": "e000011",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "حرکت بهتر، عملکرد آگاهانه‌تر",
+                "header_size": "h1",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48,
+                  "isLinked": true
+                },
+                "typography_font_weight": "700",
+                "typography_text_align": "start",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -0.5
+                },
+                "text_color": "#102B46",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "22",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "isInner": false
+            },
+            {
+              "id": "e000012",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "با ارزیابی دقیق الگوهای حرکتی و طراحی برنامه‌های اختصاصی، به شما کمک می‌کنم آگاهانه‌تر حرکت کنید و به اهداف خود نزدیک‌تر شوید.",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17,
+                  "isLinked": true
+                },
+                "typography_font_weight": "400",
+                "text_color": "#4E6E88",
+                "text_align": "start",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "32",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "isInner": false
+            },
+            {
+              "id": "e000015",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 14,
+                  "isLinked": true
+                },
+                "flex_wrap": "wrap"
+              },
+              "elements": [
+                {
+                  "id": "e000013",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "رزرو مشاوره",
+                    "background_background": "classic",
+                    "background_color": "#2A6178",
+                    "button_text_color": "#FFFFFF",
+                    "button_background_hover_color": "#1F4E62",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "999",
+                      "right": "999",
+                      "bottom": "999",
+                      "left": "999",
+                      "isLinked": true
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1
+                    },
+                    "typography_font_weight": "600",
+                    "padding": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "28",
+                      "bottom": "14",
+                      "left": "28",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "e000014",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "آشنایی با تخصص",
+                    "background_background": "classic",
+                    "button_text_color": "#102B46",
+                    "button_background_hover_color": "#E8F2F9",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#C2D9EA",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "999",
+                      "right": "999",
+                      "bottom": "999",
+                      "left": "999",
+                      "isLinked": true
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 1
+                    },
+                    "typography_font_weight": "600",
+                    "padding": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "28",
+                      "bottom": "14",
+                      "left": "28",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "e000016",
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  {
+                    "text": "ارزیابی دقیق الگوهای حرکتی",
+                    "selected_icon": {
+                      "value": "fas fa-check-circle",
+                      "library": "fa-solid"
+                    }
+                  },
+                  {
+                    "text": "برنامه‌ریزی اختصاصی و مرحله‌به‌مرحله",
+                    "selected_icon": {
+                      "value": "fas fa-check-circle",
+                      "library": "fa-solid"
+                    }
+                  }
+                ],
+                "icon_color": "#3B82A0",
+                "text_color": "#1B3D5F",
+                "icon_typography_typography": "custom",
+                "icon_typography_font_family": "Vazirmatn",
+                "icon_typography_font_size": {
+                  "unit": "rem",
+                  "size": 0.94
+                },
+                "text_typography_typography": "custom",
+                "text_typography_font_family": "Vazirmatn",
+                "text_typography_font_size": {
+                  "unit": "rem",
+                  "size": 0.94
+                },
+                "space_between": {
+                  "unit": "px",
+                  "size": 12,
+                  "isLinked": true
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "30",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "e000019",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "flex_direction": "column",
+            "flex_justify_content": "center",
+            "flex_align_items": "center",
+            "flex_grow": "1",
+            "css_classes": "hero-visual"
+          },
+          "elements": [
+            {
+              "id": "e000018",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "{{IMAGE:hero-specialist}}"
+                },
+                "image_size": "full",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "34",
+                  "right": "34",
+                  "bottom": "34",
+                  "left": "34",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "css_classes": "hero-photo"
+              },
+              "elements": [],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "e000051",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "0",
+          "bottom": "100",
+          "left": "0",
+          "isLinked": false
+        },
+        "css_id": "services"
+      },
+      "elements": [
+        {
+          "id": "e000025",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "flex-end",
+            "flex_gap": {
+              "unit": "px",
+              "size": 28,
+              "isLinked": true
+            },
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "48",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "e000023",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "e000021",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "خدمات تخصصی",
+                    "header_size": "h2",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 38,
+                      "isLinked": true
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_align": "start",
+                    "text_color": "#102B46",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "e000022",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "هر مسیر با ارزیابی وضعیت بدنی شما آغاز می‌شود و بر پایه اهداف و شرایط اختصاصی خودتان طراحی می‌گردد.",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 17,
+                      "isLinked": true
+                    },
+                    "typography_font_weight": "400",
+                    "text_color": "#4E6E88",
+                    "text_align": "start",
+                    "margin": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "e000024",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "مشاهده همه خدمات",
+                "background_background": "classic",
+                "background_color": "transparent",
+                "button_text_color": "#2A6178",
+                "button_text_hover_color": "#102B46",
+                "border_border": "none",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "rem",
+                  "size": 0.98
+                },
+                "typography_font_weight": "600"
+              },
+              "elements": [],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "e000050",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 26,
+              "isLinked": true
+            },
+            "content_width": "boxed"
+          },
+          "elements": [
+            {
+              "id": "e000031",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "container_type": "flex",
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#D9E6F0",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "26",
+                  "bottom": "26",
+                  "left": "26",
+                  "isLinked": true
+                },
+                "box_shadow": "0px 4px 14px rgba(16,43,70,0.06)",
+                "overflow": "hidden",
+                "css_classes": "service-card"
+              },
+              "elements": [
+                {
+                  "id": "e000026",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "{IMAGE:service-assessment}"
+                    },
+                    "image_size": "full",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "height": {
+                      "unit": "%",
+                      "size": 65
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "e000030",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 10,
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "22",
+                      "right": "22",
+                      "bottom": "20",
+                      "left": "22",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "e000027",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "ارزیابی و آنالیز حرکتی",
+                        "header_size": "h3",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 18,
+                          "isLinked": true
+                        },
+                        "typography_font_weight": "700",
+                        "typography_text_align": "start",
+                        "text_color": "#102B46"
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "e000028",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "بررسی دقیق الگوهای حرکتی، دامنه مفاصل و کیفیت کنترل بدن برای یافتن محدودیت‌ها.",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15,
+                          "isLinked": true
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#4E6E88",
+                        "text_align": "start"
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "e000029",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "جزئیات خدمت",
+                        "size": "sm",
+                        "background_background": "classic",
+                        "background_color": "transparent",
+                        "button_text_color": "#2A6178",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.9
+                        },
+                        "typography_font_weight": "600",
+                        "border_border": "none",
+                        "button_text_hover_color": "#102B46",
+                        "padding": {
+                          "unit": "px",
+                          "top": "8",
+                          "right": "0",
+                          "bottom": "2",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "e000037",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "container_type": "flex",
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#D9E6F0",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "26",
+                  "bottom": "26",
+                  "left": "26",
+                  "isLinked": true
+                },
+                "box_shadow": "0px 4px 14px rgba(16,43,70,0.06)",
+                "overflow": "hidden",
+                "css_classes": "service-card"
+              },
+              "elements": [
+                {
+                  "id": "e000032",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "{IMAGE:service-corrective}"
+                    },
+                    "image_size": "full",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "height": {
+                      "unit": "%",
+                      "size": 65
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "e000036",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 10,
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "22",
+                      "right": "22",
+                      "bottom": "20",
+                      "left": "22",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "e000033",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "حرکات اصلاحی",
+                        "header_size": "h3",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 18,
+                          "isLinked": true
+                        },
+                        "typography_font_weight": "700",
+                        "typography_text_align": "start",
+                        "text_color": "#102B46"
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "e000034",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "اصلاح عدم تعادل‌ها و ناهنجاری‌های وضعیتی با تمرین‌های هدفمند و پیشرفت تدریجی.",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15,
+                          "isLinked": true
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#4E6E88",
+                        "text_align": "start"
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "e000035",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "جزئیات خدمت",
+                        "size": "sm",
+                        "background_background": "classic",
+                        "background_color": "transparent",
+                        "button_text_color": "#2A6178",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.9
+                        },
+                        "typography_font_weight": "600",
+                        "border_border": "none",
+                        "button_text_hover_color": "#102B46",
+                        "padding": {
+                          "unit": "px",
+                          "top": "8",
+                          "right": "0",
+                          "bottom": "2",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "e000043",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "container_type": "flex",
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#D9E6F0",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "26",
+                  "bottom": "26",
+                  "left": "26",
+                  "isLinked": true
+                },
+                "box_shadow": "0px 4px 14px rgba(16,43,70,0.06)",
+                "overflow": "hidden",
+                "css_classes": "service-card"
+              },
+              "elements": [
+                {
+                  "id": "e000038",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "{IMAGE:service-online}"
+                    },
+                    "image_size": "full",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "height": {
+                      "unit": "%",
+                      "size": 65
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "e000042",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 10,
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "22",
+                      "right": "22",
+                      "bottom": "20",
+                      "left": "22",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "e000039",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "مشاوره آنلاین",
+                        "header_size": "h3",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 18,
+                          "isLinked": true
+                        },
+                        "typography_font_weight": "700",
+                        "typography_text_align": "start",
+                        "text_color": "#102B46"
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "e000040",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "طراحی و پیگیری برنامه به‌صورت غیرحضوری، برای شما در هر شهر و هر نقطه.",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15,
+                          "isLinked": true
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#4E6E88",
+                        "text_align": "start"
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "e000041",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "جزئیات خدمت",
+                        "size": "sm",
+                        "background_background": "classic",
+                        "background_color": "transparent",
+                        "button_text_color": "#2A6178",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.9
+                        },
+                        "typography_font_weight": "600",
+                        "border_border": "none",
+                        "button_text_hover_color": "#102B46",
+                        "padding": {
+                          "unit": "px",
+                          "top": "8",
+                          "right": "0",
+                          "bottom": "2",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "e000049",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "container_type": "flex",
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#D9E6F0",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "26",
+                  "bottom": "26",
+                  "left": "26",
+                  "isLinked": true
+                },
+                "box_shadow": "0px 4px 14px rgba(16,43,70,0.06)",
+                "overflow": "hidden",
+                "css_classes": "service-card"
+              },
+              "elements": [
+                {
+                  "id": "e000044",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "{IMAGE:service-training}"
+                    },
+                    "image_size": "full",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "height": {
+                      "unit": "%",
+                      "size": 65
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "e000048",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 10,
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "22",
+                      "right": "22",
+                      "bottom": "20",
+                      "left": "22",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "e000045",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "برنامه تمرینی اختصاصی",
+                        "header_size": "h3",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 18,
+                          "isLinked": true
+                        },
+                        "typography_font_weight": "700",
+                        "typography_text_align": "start",
+                        "text_color": "#102B46"
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "e000046",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "برنامه تمرینی متناسب با اهداف، سابقه تمرینی و شرایط جسمانی شما.",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15,
+                          "isLinked": true
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#4E6E88",
+                        "text_align": "start"
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "e000047",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "جزئیات خدمت",
+                        "size": "sm",
+                        "background_background": "classic",
+                        "background_color": "transparent",
+                        "button_text_color": "#2A6178",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 0.9
+                        },
+                        "typography_font_weight": "600",
+                        "border_border": "none",
+                        "button_text_hover_color": "#102B46",
+                        "padding": {
+                          "unit": "px",
+                          "top": "8",
+                          "right": "0",
+                          "bottom": "2",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "e000068",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "row",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 56,
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "0",
+          "bottom": "100",
+          "left": "0",
+          "isLinked": false
+        },
+        "background_background": "gradient",
+        "background_color": "#FFFFFF",
+        "background_color_b": "#F7FBFE",
+        "background_gradient_angle": 180,
+        "css_id": "about"
+      },
+      "elements": [
+        {
+          "id": "e000065",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "flex_grow": "1"
+          },
+          "elements": [
+            {
+              "id": "e000052",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "درباره من",
+                "header_size": "h2",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 38,
+                  "isLinked": true
+                },
+                "typography_font_weight": "700",
+                "typography_text_align": "start",
+                "text_color": "#102B46"
+              },
+              "elements": [],
+              "isInner": false
+            },
+            {
+              "id": "e000053",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "من مهدی پارسا هستم و در حوزه فیزیولوژی ورزش و حرکات اصلاحی کار می‌کنم. کار من این است که الگوهای حرکتی شما را با دقت بررسی کنم، محدودیت‌ها و عدم تعادل‌ها را پیدا کنم و بر پایه همین یافته‌ها برنامه‌ای بسازم که با شرایط بدنی و اهداف شما هم‌خوان باشد.",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17,
+                  "isLinked": true
+                },
+                "typography_font_weight": "400",
+                "text_color": "#4E6E88",
+                "text_align": "start",
+                "margin": {
+                  "unit": "px",
+                  "top": "14",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "isInner": false
+            },
+            {
+              "id": "e000054",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "اطلاعات بیشتر",
+                "background_background": "classic",
+                "background_color": "#2A6178",
+                "button_text_color": "#FFFFFF",
+                "button_background_hover_color": "#1F4E62",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "999",
+                  "right": "999",
+                  "bottom": "999",
+                  "left": "999",
+                  "isLinked": true
+                },
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "rem",
+                  "size": 1
+                },
+                "typography_font_weight": "600",
+                "padding": {
+                  "unit": "px",
+                  "top": "14",
+                  "right": "28",
+                  "bottom": "14",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "6",
+                  "right": "0",
+                  "bottom": "26",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "isInner": false
+            },
+            {
+              "id": "e000064",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 14,
+                  "isLinked": true
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "4",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "id": "e000057",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_align_items": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 12,
+                      "isLinked": true
+                    },
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#D9E6F0",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "18",
+                      "bottom": "18",
+                      "left": "18",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "14",
+                      "bottom": "14",
+                      "left": "14",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "e000055",
+                      "elType": "widget",
+                      "widgetType": "icon",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-graduation-cap",
+                          "library": "fa-solid"
+                        },
+                        "primary_color": "#2A6178",
+                        "size": {
+                          "unit": "px",
+                          "size": 42,
+                          "isLinked": true
+                        },
+                        "background_background": "classic",
+                        "background_color": "#E8F2F9",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "50",
+                          "right": "50",
+                          "bottom": "50",
+                          "left": "50",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "e000056",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "[مدرک تحصیلی]",
+                        "header_size": "p",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "isLinked": true
+                        },
+                        "typography_font_weight": "500",
+                        "text_color": "#2A6178"
+                      },
+                      "elements": [],
+                      "isInner": false
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "e000060",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_align_items": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 12,
+                      "isLinked": true
+                    },
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#D9E6F0",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "18",
+                      "bottom": "18",
+                      "left": "18",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "14",
+                      "bottom": "14",
+                      "left": "14",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "e000058",
+                      "elType": "widget",
+                      "widgetType": "icon",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-award",
+                          "library": "fa-solid"
+                        },
+                        "primary_color": "#2A6178",
+                        "size": {
+                          "unit": "px",
+                          "size": 42,
+                          "isLinked": true
+                        },
+                        "background_background": "classic",
+                        "background_color": "#E8F2F9",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "50",
+                          "right": "50",
+                          "bottom": "50",
+                          "left": "50",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "e000059",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "[گواهینامه بین‌المللی]",
+                        "header_size": "p",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "isLinked": true
+                        },
+                        "typography_font_weight": "500",
+                        "text_color": "#2A6178"
+                      },
+                      "elements": [],
+                      "isInner": false
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "e000063",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_align_items": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 12,
+                      "isLinked": true
+                    },
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#D9E6F0",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "18",
+                      "bottom": "18",
+                      "left": "18",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "14",
+                      "bottom": "14",
+                      "left": "14",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "e000061",
+                      "elType": "widget",
+                      "widgetType": "icon",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-briefcase",
+                          "library": "fa-solid"
+                        },
+                        "primary_color": "#2A6178",
+                        "size": {
+                          "unit": "px",
+                          "size": 42,
+                          "isLinked": true
+                        },
+                        "background_background": "classic",
+                        "background_color": "#E8F2F9",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "50",
+                          "right": "50",
+                          "bottom": "50",
+                          "left": "50",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "e000062",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "[سابقه کاری]",
+                        "header_size": "p",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "isLinked": true
+                        },
+                        "typography_font_weight": "500",
+                        "text_color": "#2A6178"
+                      },
+                      "elements": [],
+                      "isInner": false
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "e000067",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "flex_grow": "1",
+            "css_classes": "about-visual"
+          },
+          "elements": [
+            {
+              "id": "e000066",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "{{IMAGE:about-specialist}}"
+                },
+                "image_size": "full",
+                "image_border_radius": {
+                  "unit": "px",
+                  "top": "34",
+                  "right": "34",
+                  "bottom": "34",
+                  "left": "34",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 100
+                }
+              },
+              "elements": [],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "e000089",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "0",
+          "bottom": "100",
+          "left": "0",
+          "isLinked": false
+        },
+        "background_background": "gradient",
+        "background_color": "#F2F9FD",
+        "background_color_b": "#E8F2F9",
+        "background_gradient_angle": 180,
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": "1",
+          "right": "0",
+          "bottom": "1",
+          "left": "0",
+          "isLinked": false
+        },
+        "border_color": "#D9E6F0",
+        "css_id": "method"
+      },
+      "elements": [
+        {
+          "id": "e000071",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "flex_justify_content": "center",
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "48",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "e000069",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "روش کار من",
+                "header_size": "h2",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 38,
+                  "isLinked": true
+                },
+                "typography_font_weight": "700",
+                "typography_text_align": "center",
+                "text_color": "#102B46"
+              },
+              "elements": [],
+              "isInner": false
+            },
+            {
+              "id": "e000070",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "یک مسیر روشن و مرحله‌به‌مرحله، از ارزیابی اولیه تا رسیدن به هدف.",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17,
+                  "isLinked": true
+                },
+                "typography_font_weight": "400",
+                "text_color": "#4E6E88",
+                "text_align": "center",
+                "margin": {
+                  "unit": "px",
+                  "top": "14",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "e000088",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 26,
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "e000075",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "container_type": "flex",
+                "background_background": "classic",
+                "background_color": "#FFFFFFD1",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#D9E6F0",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "26",
+                  "bottom": "26",
+                  "left": "26",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "20",
+                  "bottom": "24",
+                  "left": "20",
+                  "isLinked": false
+                },
+                "css_classes": "method-step",
+                "width": {
+                  "unit": "%",
+                  "size": 23
+                }
+              },
+              "elements": [
+                {
+                  "id": "e000072",
+                  "elType": "widget",
+                  "widgetType": "icon",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-clipboard-list",
+                      "library": "fa-solid"
+                    },
+                    "primary_color": "#2A6178",
+                    "size": {
+                      "unit": "px",
+                      "size": 64,
+                      "isLinked": true
+                    },
+                    "background_background": "gradient",
+                    "background_color": "#FFFFFF",
+                    "background_color_b": "#E8F2F9",
+                    "background_gradient_angle": 160,
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#D9E6F0",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "18",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "e000073",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "ارزیابی اولیه",
+                    "header_size": "h3",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 17,
+                      "isLinked": true
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_align": "start",
+                    "text_color": "#102B46"
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "e000074",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "بررسی وضعیت فعلی بدن، دامنه حرکت و الگوهای حرکتی پایه.",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "isLinked": true
+                    },
+                    "typography_font_weight": "400",
+                    "text_color": "#4E6E88",
+                    "text_align": "start",
+                    "margin": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "e000079",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "container_type": "flex",
+                "background_background": "classic",
+                "background_color": "#FFFFFFD1",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#D9E6F0",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "26",
+                  "bottom": "26",
+                  "left": "26",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "20",
+                  "bottom": "24",
+                  "left": "20",
+                  "isLinked": false
+                },
+                "css_classes": "method-step",
+                "width": {
+                  "unit": "%",
+                  "size": 23
+                }
+              },
+              "elements": [
+                {
+                  "id": "e000076",
+                  "elType": "widget",
+                  "widgetType": "icon",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-bullseye",
+                      "library": "fa-solid"
+                    },
+                    "primary_color": "#2A6178",
+                    "size": {
+                      "unit": "px",
+                      "size": 64,
+                      "isLinked": true
+                    },
+                    "background_background": "gradient",
+                    "background_color": "#FFFFFF",
+                    "background_color_b": "#E8F2F9",
+                    "background_gradient_angle": 160,
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#D9E6F0",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "18",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "e000077",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "تعیین اهداف",
+                    "header_size": "h3",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 17,
+                      "isLinked": true
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_align": "start",
+                    "text_color": "#102B46"
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "e000078",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "مشخص کردن هدف‌های واقع‌بینانه و قابل اندازه‌گیری در مسیر بهبود.",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "isLinked": true
+                    },
+                    "typography_font_weight": "400",
+                    "text_color": "#4E6E88",
+                    "text_align": "start",
+                    "margin": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "e000083",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "container_type": "flex",
+                "background_background": "classic",
+                "background_color": "#FFFFFFD1",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#D9E6F0",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "26",
+                  "bottom": "26",
+                  "left": "26",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "20",
+                  "bottom": "24",
+                  "left": "20",
+                  "isLinked": false
+                },
+                "css_classes": "method-step",
+                "width": {
+                  "unit": "%",
+                  "size": 23
+                }
+              },
+              "elements": [
+                {
+                  "id": "e000080",
+                  "elType": "widget",
+                  "widgetType": "icon",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-file-alt",
+                      "library": "fa-solid"
+                    },
+                    "primary_color": "#2A6178",
+                    "size": {
+                      "unit": "px",
+                      "size": 64,
+                      "isLinked": true
+                    },
+                    "background_background": "gradient",
+                    "background_color": "#FFFFFF",
+                    "background_color_b": "#E8F2F9",
+                    "background_gradient_angle": 160,
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#D9E6F0",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "18",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "e000081",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "طراحی برنامه",
+                    "header_size": "h3",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 17,
+                      "isLinked": true
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_align": "start",
+                    "text_color": "#102B46"
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "e000082",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "ساختن برنامه اختصاصی بر پایه یافته‌های ارزیابی و اهداف شما.",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "isLinked": true
+                    },
+                    "typography_font_weight": "400",
+                    "text_color": "#4E6E88",
+                    "text_align": "start",
+                    "margin": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "e000087",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "container_type": "flex",
+                "background_background": "classic",
+                "background_color": "#FFFFFFD1",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#D9E6F0",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "26",
+                  "bottom": "26",
+                  "left": "26",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "20",
+                  "bottom": "24",
+                  "left": "20",
+                  "isLinked": false
+                },
+                "css_classes": "method-step",
+                "width": {
+                  "unit": "%",
+                  "size": 23
+                }
+              },
+              "elements": [
+                {
+                  "id": "e000084",
+                  "elType": "widget",
+                  "widgetType": "icon",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-chart-line",
+                      "library": "fa-solid"
+                    },
+                    "primary_color": "#2A6178",
+                    "size": {
+                      "unit": "px",
+                      "size": 64,
+                      "isLinked": true
+                    },
+                    "background_background": "gradient",
+                    "background_color": "#FFFFFF",
+                    "background_color_b": "#E8F2F9",
+                    "background_gradient_angle": 160,
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#D9E6F0",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "18",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "e000085",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "پیگیری پیشرفت",
+                    "header_size": "h3",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 17,
+                      "isLinked": true
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_align": "start",
+                    "text_color": "#102B46"
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "e000086",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "بازبینی منظم نتایج و به‌روزرسانی برنامه در طول مسیر.",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "isLinked": true
+                    },
+                    "typography_font_weight": "400",
+                    "text_color": "#4E6E88",
+                    "text_align": "start",
+                    "margin": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "e000127",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "row",
+        "flex_gap": {
+          "unit": "px",
+          "size": 30,
+          "isLinked": true
+        },
+        "flex_align_items": "stretch",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "0",
+          "bottom": "100",
+          "left": "0",
+          "isLinked": false
+        },
+        "css_id": "articles"
+      },
+      "elements": [
+        {
+          "id": "e000117",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "flex_grow": "1.45"
+          },
+          "elements": [
+            {
+              "id": "e000094",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_justify_content": "space-between",
+                "flex_align_items": "flex-end",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 28,
+                  "isLinked": true
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "32",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "id": "e000092",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column"
+                  },
+                  "elements": [
+                    {
+                      "id": "e000090",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "مقالات تخصصی",
+                        "header_size": "h2",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 38,
+                          "isLinked": true
+                        },
+                        "typography_font_weight": "700",
+                        "typography_text_align": "start",
+                        "text_color": "#102B46"
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "e000091",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "نوشته‌های کوتاه درباره حرکت، وضعیت بدنی و تمرین.",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 17,
+                          "isLinked": true
+                        },
+                        "typography_font_weight": "400",
+                        "text_color": "#4E6E88",
+                        "text_align": "start",
+                        "margin": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "e000093",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "مشاهده همه مقالات",
+                    "background_background": "classic",
+                    "background_color": "transparent",
+                    "button_text_color": "#2A6178",
+                    "button_text_hover_color": "#102B46",
+                    "border_border": "none",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "rem",
+                      "size": 0.98
+                    },
+                    "typography_font_weight": "600"
+                  },
+                  "elements": [],
+                  "isInner": false
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "e000116",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 20,
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "e000101",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "container_type": "flex",
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#D9E6F0",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "26",
+                      "right": "26",
+                      "bottom": "26",
+                      "left": "26",
+                      "isLinked": true
+                    },
+                    "overflow": "hidden",
+                    "css_classes": "article-card",
+                    "width": {
+                      "unit": "%",
+                      "size": 31
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "e000095",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "{IMAGE:article-1}"
+                        },
+                        "image_size": "full",
+                        "image_border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "e000100",
+                      "elType": "container",
+                      "settings": {
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 10,
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "22",
+                          "right": "22",
+                          "bottom": "20",
+                          "left": "22",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "e000096",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "[تاریخ انتشار]",
+                            "header_size": "p",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Vazirmatn",
+                            "typography_font_size": {
+                              "unit": "px",
+                              "size": 13,
+                              "isLinked": true
+                            },
+                            "typography_font_weight": "400",
+                            "text_color": "#4E6E88"
+                          },
+                          "elements": [],
+                          "isInner": false
+                        },
+                        {
+                          "id": "e000097",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "ارزیابی حرکتی؛ نقطه شروع هر برنامه",
+                            "header_size": "h3",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Vazirmatn",
+                            "typography_font_size": {
+                              "unit": "px",
+                              "size": 16,
+                              "isLinked": true
+                            },
+                            "typography_font_weight": "700",
+                            "typography_text_align": "start",
+                            "text_color": "#102B46"
+                          },
+                          "elements": [],
+                          "isInner": false
+                        },
+                        {
+                          "id": "e000098",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "چرا بدون شناخت الگوهای حرکتی، انتخاب تمرین تنها یک حدس است.",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Vazirmatn",
+                            "typography_font_size": {
+                              "unit": "px",
+                              "size": 14,
+                              "isLinked": true
+                            },
+                            "typography_font_weight": "400",
+                            "text_color": "#4E6E88",
+                            "text_align": "start"
+                          },
+                          "elements": [],
+                          "isInner": false
+                        },
+                        {
+                          "id": "e000099",
+                          "elType": "widget",
+                          "widgetType": "button",
+                          "settings": {
+                            "text": " ادامه مطلب",
+                            "size": "sm",
+                            "background_background": "classic",
+                            "background_color": "transparent",
+                            "button_text_color": "#2A6178",
+                            "button_text_hover_color": "#102B46",
+                            "border_border": "none",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Vazirmatn",
+                            "typography_font_size": {
+                              "unit": "rem",
+                              "size": 0.9
+                            },
+                            "typography_font_weight": "600",
+                            "padding": {
+                              "unit": "px",
+                              "top": "8",
+                              "right": "0",
+                              "bottom": "2",
+                              "left": "0",
+                              "isLinked": false
+                            }
+                          },
+                          "elements": [],
+                          "isInner": false
+                        }
+                      ],
+                      "isInner": true
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "e000108",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "container_type": "flex",
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#D9E6F0",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "26",
+                      "right": "26",
+                      "bottom": "26",
+                      "left": "26",
+                      "isLinked": true
+                    },
+                    "overflow": "hidden",
+                    "css_classes": "article-card",
+                    "width": {
+                      "unit": "%",
+                      "size": 31
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "e000102",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "{IMAGE:article-2}"
+                        },
+                        "image_size": "full",
+                        "image_border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "e000107",
+                      "elType": "container",
+                      "settings": {
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 10,
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "22",
+                          "right": "22",
+                          "bottom": "20",
+                          "left": "22",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "e000103",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "[تاریخ انتشار]",
+                            "header_size": "p",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Vazirmatn",
+                            "typography_font_size": {
+                              "unit": "px",
+                              "size": 13,
+                              "isLinked": true
+                            },
+                            "typography_font_weight": "400",
+                            "text_color": "#4E6E88"
+                          },
+                          "elements": [],
+                          "isInner": false
+                        },
+                        {
+                          "id": "e000104",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "نشستن طولانی‌مدت و کنترل لگن",
+                            "header_size": "h3",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Vazirmatn",
+                            "typography_font_size": {
+                              "unit": "px",
+                              "size": 16,
+                              "isLinked": true
+                            },
+                            "typography_font_weight": "700",
+                            "typography_text_align": "start",
+                            "text_color": "#102B46"
+                          },
+                          "elements": [],
+                          "isInner": false
+                        },
+                        {
+                          "id": "e000105",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "اثر ساعت‌های نشستن بر وضعیت لگن و راه‌های ساده جبران آن.",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Vazirmatn",
+                            "typography_font_size": {
+                              "unit": "px",
+                              "size": 14,
+                              "isLinked": true
+                            },
+                            "typography_font_weight": "400",
+                            "text_color": "#4E6E88",
+                            "text_align": "start"
+                          },
+                          "elements": [],
+                          "isInner": false
+                        },
+                        {
+                          "id": "e000106",
+                          "elType": "widget",
+                          "widgetType": "button",
+                          "settings": {
+                            "text": " ادامه مطلب",
+                            "size": "sm",
+                            "background_background": "classic",
+                            "background_color": "transparent",
+                            "button_text_color": "#2A6178",
+                            "button_text_hover_color": "#102B46",
+                            "border_border": "none",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Vazirmatn",
+                            "typography_font_size": {
+                              "unit": "rem",
+                              "size": 0.9
+                            },
+                            "typography_font_weight": "600",
+                            "padding": {
+                              "unit": "px",
+                              "top": "8",
+                              "right": "0",
+                              "bottom": "2",
+                              "left": "0",
+                              "isLinked": false
+                            }
+                          },
+                          "elements": [],
+                          "isInner": false
+                        }
+                      ],
+                      "isInner": true
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "e000115",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "container_type": "flex",
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#D9E6F0",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "26",
+                      "right": "26",
+                      "bottom": "26",
+                      "left": "26",
+                      "isLinked": true
+                    },
+                    "overflow": "hidden",
+                    "css_classes": "article-card",
+                    "width": {
+                      "unit": "%",
+                      "size": 31
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "e000109",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "{IMAGE:article-3}"
+                        },
+                        "image_size": "full",
+                        "image_border_radius": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "e000114",
+                      "elType": "container",
+                      "settings": {
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 10,
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "22",
+                          "right": "22",
+                          "bottom": "20",
+                          "left": "22",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "e000110",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "[تاریخ انتشار]",
+                            "header_size": "p",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Vazirmatn",
+                            "typography_font_size": {
+                              "unit": "px",
+                              "size": 13,
+                              "isLinked": true
+                            },
+                            "typography_font_weight": "400",
+                            "text_color": "#4E6E88"
+                          },
+                          "elements": [],
+                          "isInner": false
+                        },
+                        {
+                          "id": "e000111",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "دویدن و اقتصاد حرکت",
+                            "header_size": "h3",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Vazirmatn",
+                            "typography_font_size": {
+                              "unit": "px",
+                              "size": 16,
+                              "isLinked": true
+                            },
+                            "typography_font_weight": "700",
+                            "typography_text_align": "start",
+                            "text_color": "#102B46"
+                          },
+                          "elements": [],
+                          "isInner": false
+                        },
+                        {
+                          "id": "e000112",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "چگونه بهبود الگوی دویدن، هزینه انرژی هر گام را کاهش می‌دهد.",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Vazirmatn",
+                            "typography_font_size": {
+                              "unit": "px",
+                              "size": 14,
+                              "isLinked": true
+                            },
+                            "typography_font_weight": "400",
+                            "text_color": "#4E6E88",
+                            "text_align": "start"
+                          },
+                          "elements": [],
+                          "isInner": false
+                        },
+                        {
+                          "id": "e000113",
+                          "elType": "widget",
+                          "widgetType": "button",
+                          "settings": {
+                            "text": " ادامه مطلب",
+                            "size": "sm",
+                            "background_background": "classic",
+                            "background_color": "transparent",
+                            "button_text_color": "#2A6178",
+                            "button_text_hover_color": "#102B46",
+                            "border_border": "none",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Vazirmatn",
+                            "typography_font_size": {
+                              "unit": "rem",
+                              "size": 0.9
+                            },
+                            "typography_font_weight": "600",
+                            "padding": {
+                              "unit": "px",
+                              "top": "8",
+                              "right": "0",
+                              "bottom": "2",
+                              "left": "0",
+                              "isLinked": false
+                            }
+                          },
+                          "elements": [],
+                          "isInner": false
+                        }
+                      ],
+                      "isInner": true
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "e000126",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "flex_grow": "1"
+          },
+          "elements": [
+            {
+              "id": "e000118",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "آموزش‌های ویدئویی",
+                "header_size": "h2",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 38,
+                  "isLinked": true
+                },
+                "typography_font_weight": "700",
+                "typography_text_align": "start",
+                "text_color": "#102B46",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "32",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "isInner": false
+            },
+            {
+              "id": "e000125",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_justify_content": "flex-end",
+                "container_type": "flex",
+                "background_background": "classic",
+                "background_color": "#0A1D31",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "26",
+                  "bottom": "26",
+                  "left": "26",
+                  "isLinked": true
+                },
+                "overflow": "hidden",
+                "min_height": {
+                  "unit": "px",
+                  "size": 360,
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "38",
+                  "right": "38",
+                  "bottom": "38",
+                  "left": "38",
+                  "isLinked": true
+                },
+                "css_classes": "video-panel"
+              },
+              "elements": [
+                {
+                  "id": "e000119",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "{{IMAGE:video-poster}}"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "e000120",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "ویدئوهای آموزشی",
+                    "header_size": "h3",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "isLinked": true
+                    },
+                    "typography_font_weight": "700",
+                    "typography_text_align": "start",
+                    "text_color": "#FFFFFF",
+                    "margin": {
+                      "unit": "px",
+                      "top": "12",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "e000121",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "در این بخش ویدئوهای کوتاه آموزشی درباره حرکت، وضعیت بدنی و اجرای صحیح تمرین منتشر می‌شود.",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Vazirmatn",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 15,
+                      "isLinked": true
+                    },
+                    "typography_font_weight": "400",
+                    "text_color": "#FFFFFFDB",
+                    "text_align": "start",
+                    "margin": {
+                      "unit": "px",
+                      "top": "12",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "e000124",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_align_items": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 16,
+                      "isLinked": true
+                    },
+                    "flex_wrap": "wrap",
+                    "margin": {
+                      "unit": "px",
+                      "top": "26",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "e000122",
+                      "elType": "widget",
+                      "widgetType": "icon",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-play",
+                          "library": "fa-solid"
+                        },
+                        "primary_color": "#2A6178",
+                        "size": {
+                          "unit": "px",
+                          "size": 62,
+                          "isLinked": true
+                        },
+                        "background_background": "classic",
+                        "background_color": "#FFFFFF",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "50",
+                          "right": "50",
+                          "bottom": "50",
+                          "left": "50",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "e000123",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "مشاهده همه ویدئوها",
+                        "background_background": "classic",
+                        "background_color": "#FFFFFF1A",
+                        "button_text_color": "#FFFFFF",
+                        "button_background_hover_color": "#FFFFFF",
+                        "button_text_hover_color": "#102B46",
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "border_color": "#FFFFFF8C",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "999",
+                          "right": "999",
+                          "bottom": "999",
+                          "left": "999",
+                          "isLinked": true
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "rem",
+                          "size": 1
+                        },
+                        "typography_font_weight": "600",
+                        "padding": {
+                          "unit": "px",
+                          "top": "14",
+                          "right": "28",
+                          "bottom": "14",
+                          "left": "28",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [],
+                      "isInner": false
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "e000132",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "row",
+        "flex_justify_content": "space-between",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 28,
+          "isLinked": true
+        },
+        "background_background": "classic",
+        "background_color": "#102B46",
+        "padding": {
+          "unit": "px",
+          "top": "64",
+          "right": "0",
+          "bottom": "64",
+          "left": "0",
+          "isLinked": false
+        },
+        "css_id": "consultation"
+      },
+      "elements": [
+        {
+          "id": "e000130",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column"
+          },
+          "elements": [
+            {
+              "id": "e000128",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "برای شروع مسیر بهبود، همین حالا اقدام کنید",
+                "header_size": "h2",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 34,
+                  "isLinked": true
+                },
+                "typography_font_weight": "700",
+                "typography_text_align": "start",
+                "text_color": "#FFFFFF"
+              },
+              "elements": [],
+              "isInner": false
+            },
+            {
+              "id": "e000129",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "رزرو جلسه مشاوره حضوری یا آنلاین",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17,
+                  "isLinked": true
+                },
+                "typography_font_weight": "400",
+                "text_color": "#FFFFFFD6",
+                "text_align": "start",
+                "margin": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "isInner": false
+            }
+          ],
+          "isInner": true
+        },
+        {
+          "id": "e000131",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "رزرو مشاوره",
+            "background_background": "classic",
+            "background_color": "#FFFFFF",
+            "button_text_color": "#102B46",
+            "button_background_hover_color": "#FFFFFF",
+            "border_radius": {
+              "unit": "px",
+              "top": "999",
+              "right": "999",
+              "bottom": "999",
+              "left": "999",
+              "isLinked": true
+            },
+            "typography_typography": "custom",
+            "typography_font_family": "Vazirmatn",
+            "typography_font_size": {
+              "unit": "rem",
+              "size": 1
+            },
+            "typography_font_weight": "600",
+            "padding": {
+              "unit": "px",
+              "top": "14",
+              "right": "28",
+              "bottom": "14",
+              "left": "28",
+              "isLinked": false
+            }
+          },
+          "elements": [],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "e000150",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "row",
+        "flex_wrap": "wrap",
+        "flex_gap": {
+          "unit": "px",
+          "size": 34,
+          "isLinked": true
+        },
+        "background_background": "gradient",
+        "background_color": "#0A1D31",
+        "background_color_b": "#08182A",
+        "background_gradient_angle": 180,
+        "padding": {
+          "unit": "px",
+          "top": "64",
+          "right": "0",
+          "bottom": "32",
+          "left": "0",
+          "isLinked": false
+        },
+        "css_id": "contact"
+      },
+      "elements": [
+        {
+          "id": "e000140",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "flex_grow": "1.5"
+          },
+          "elements": [
+            {
+              "id": "e000137",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_align_items": "center",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "e000133",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "{{IMAGE:logo}}"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 46,
+                      "isLinked": true
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 46,
+                      "isLinked": true
+                    },
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "14",
+                      "bottom": "14",
+                      "left": "14",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "e000136",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column"
+                  },
+                  "elements": [
+                    {
+                      "id": "e000134",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "مهدی پارسا",
+                        "header_size": "p",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 20,
+                          "isLinked": true
+                        },
+                        "typography_font_weight": "700",
+                        "typography_text_align": "start",
+                        "text_color": "#FFFFFF"
+                      },
+                      "elements": [],
+                      "isInner": false
+                    },
+                    {
+                      "id": "e000135",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "متخصص فیزیولوژی و حرکات اصلاحی",
+                        "header_size": "p",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Vazirmatn",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12,
+                          "isLinked": true
+                        },
+                        "typography_font_weight": "500",
+                        "typography_text_align": "start",
+                        "text_color": "#FFFFFFA8"
+                      },
+                      "elements": [],
+                      "isInner": false
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "e000138",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "ارزیابی دقیق، برنامه اختصاصی و پیگیری پیشرفت؛ مسیری روشن برای حرکت بهتر و عملکرد آگاهانه‌تر.",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15,
+                  "isLinked": true
+                },
+                "typography_font_weight": "400",
+                "text_color": "#FFFFFFB8",
+                "text_align": "start",
+                "margin": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "isInner": false
+            },
+            {
+              "id": "e000139",
+              "elType": "widget",
+              "widgetType": "social-icons",
+              "settings": {
+                "social_icon_list": [
+                  {
+                    "social": "instagram",
+                    "url": {
+                      "url": "#"
+                    },
+                    "selected_icon": {
+                      "value": "fab fa-instagram",
+                      "library": "fa-brands"
+                    }
+                  },
+                  {
+                    "social": "linkedin",
+                    "url": {
+                      "url": "#"
+                    },
+                    "selected_icon": {
+                      "value": "fab fa-linkedin",
+                      "library": "fa-brands"
+                    }
+                  },
+                  {
+                    "social": "telegram",
+                    "url": {
+                      "url": "#"
+                    },
+                    "selected_icon": {
+                      "value": "fab fa-telegram",
+                      "library": "fa-brands"
+                    }
+                  },
+                  {
+                    "social": "youtube",
+                    "url": {
+                      "url": "#"
+                    },
+                    "selected_icon": {
+                      "value": "fab fa-youtube",
+                      "library": "fa-brands"
+                    }
+                  }
+                ],
+                "icon_color": "#FFFFFF",
+                "icon_color_hover": "#102B46",
+                "icons_background_color": "#FFFFFF0F",
+                "icons_background_color_hover": "#FFFFFF",
+                "icons_border_color": "#FFFFFF2E",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50",
+                  "isLinked": true
+                },
+                "icon_size": {
+                  "unit": "px",
+                  "size": 20,
+                  "isLinked": true
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "e000143",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "flex_grow": "1"
+          },
+          "elements": [
+            {
+              "id": "e000141",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "دسترسی سریع",
+                "header_size": "h3",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "isLinked": true
+                },
+                "typography_font_weight": "700",
+                "typography_text_align": "start",
+                "text_color": "#FFFFFF",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "isInner": false
+            },
+            {
+              "id": "e000142",
+              "elType": "widget",
+              "widgetType": "nav-menu",
+              "settings": {
+                "menu_items": [
+                  {
+                    "text": "صفحه اصلی",
+                    "url": "#home"
+                  },
+                  {
+                    "text": "درباره من",
+                    "url": "#about"
+                  },
+                  {
+                    "text": "خدمات",
+                    "url": "#services"
+                  },
+                  {
+                    "text": "مقالات",
+                    "url": "#articles"
+                  },
+                  {
+                    "text": "آموزش‌ها",
+                    "url": "#videos"
+                  },
+                  {
+                    "text": "رزرو مشاوره",
+                    "url": "#consultation"
+                  }
+                ],
+                "color_menu_item": "#FFFFFFBC",
+                "color_menu_item_hover": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "rem",
+                  "size": 0.94
+                },
+                "pointer": "none"
+              },
+              "elements": [],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "e000146",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "flex_grow": "1"
+          },
+          "elements": [
+            {
+              "id": "e000144",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "خدمات",
+                "header_size": "h3",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "isLinked": true
+                },
+                "typography_font_weight": "700",
+                "typography_text_align": "start",
+                "text_color": "#FFFFFF",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "isInner": false
+            },
+            {
+              "id": "e000145",
+              "elType": "widget",
+              "widgetType": "nav-menu",
+              "settings": {
+                "menu_items": [
+                  {
+                    "text": "ارزیابی و آنالیز حرکتی",
+                    "url": "#services"
+                  },
+                  {
+                    "text": "حرکات اصلاحی",
+                    "url": "#services"
+                  },
+                  {
+                    "text": "مشاوره آنلاین",
+                    "url": "#services"
+                  },
+                  {
+                    "text": "برنامه تمرینی اختصاصی",
+                    "url": "#services"
+                  }
+                ],
+                "color_menu_item": "#FFFFFFBC",
+                "color_menu_item_hover": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "rem",
+                  "size": 0.94
+                },
+                "pointer": "none"
+              },
+              "elements": [],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "e000149",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "flex_grow": "1.2"
+          },
+          "elements": [
+            {
+              "id": "e000147",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "تماس با من",
+                "header_size": "h3",
+                "typography_typography": "custom",
+                "typography_font_family": "Vazirmatn",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "isLinked": true
+                },
+                "typography_font_weight": "700",
+                "typography_text_align": "start",
+                "text_color": "#FFFFFF",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "isInner": false
+            },
+            {
+              "id": "e000148",
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  {
+                    "text": "[شماره تماس]",
+                    "selected_icon": {
+                      "value": "fas fa-phone",
+                      "library": "fa-solid"
+                    }
+                  },
+                  {
+                    "text": "[نشانی ایمیل]",
+                    "selected_icon": {
+                      "value": "fas fa-envelope",
+                      "library": "fa-solid"
+                    }
+                  },
+                  {
+                    "text": "[نشانی محل فعالیت]",
+                    "selected_icon": {
+                      "value": "fas fa-map-marker-alt",
+                      "library": "fa-solid"
+                    }
+                  }
+                ],
+                "icon_color": "#7FB6CE",
+                "text_color": "#FFFFFFC8",
+                "text_typography_typography": "custom",
+                "text_typography_font_family": "Vazirmatn",
+                "text_typography_font_size": {
+                  "unit": "rem",
+                  "size": 0.94
+                },
+                "icon_typography_typography": "custom",
+                "icon_typography_font_family": "Vazirmatn",
+                "icon_typography_font_size": {
+                  "unit": "rem",
+                  "size": 0.94
+                },
+                "space_between": {
+                  "unit": "px",
+                  "size": 12,
+                  "isLinked": true
+                }
+              },
+              "elements": [],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "page_settings": {
+    "custom_css": "",
+    "background_background": "classic",
+    "background_color": "#FFFFFF"
+  },
+  "version": "0.4",
+  "title": "مهدی پارسا - صفحه اصلی (Elementor)",
+  "type": "page"
+}
